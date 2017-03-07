@@ -1,0 +1,715 @@
+{"level":"info","message":"Starting botpress version 0.1.3","timestamp":"2017-03-07T02:00:13.521Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-07T02:00:13.571Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mbot launched, visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-07T02:00:13.581Z"}
+{"level":"info","message":"Installing modules: botpress-wit","timestamp":"2017-03-07T02:03:47.544Z"}
+{"level":"info","message":"ckbot@0.0.1 C:\\node\\botpress\n`-- botpress-wit@2.0.10 \n  `-- node-wit@4.2.0 \n    `-- isomorphic-fetch@2.2.1 \n      `-- whatwg-fetch@2.0.3 \n\n","timestamp":"2017-03-07T02:03:58.600Z"}
+{"level":"error","message":"npm WARN ckbot@0.0.1 No repository field.\n","timestamp":"2017-03-07T02:03:58.602Z"}
+{"level":"info","message":"Starting botpress version 0.1.3","timestamp":"2017-03-07T02:04:01.401Z"}
+{"level":"info","message":"loaded 2 modules","timestamp":"2017-03-07T02:04:01.877Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-07T02:04:01.905Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-07T02:04:01.906Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-07T02:04:01.906Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mbot launched, visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-07T02:04:01.919Z"}
+{"level":"info","message":"Starting botpress version 0.1.3","timestamp":"2017-03-07T03:45:32.836Z"}
+{"level":"info","message":"loaded 2 modules","timestamp":"2017-03-07T03:45:33.273Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-07T03:45:33.289Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-07T03:45:33.289Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-07T03:45:33.289Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mbot launched, visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-07T03:45:33.305Z"}
+{"level":"debug","message":"messenger: saved user profiles to disk","timestamp":"2017-03-07T03:50:33.830Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-49611&q=hi","timestamp":"2017-03-07T03:50:33.900Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"entities\":{\"intent\":[{\"confidence\":0.9304017054949832,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T03:50:35.761Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T03:50:35.763Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T03:50:35.764Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-49611","timestamp":"2017-03-07T03:50:39.334Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-07T03:50:40.936Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T03:50:40.937Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T03:50:40.938Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-49611&q=hi","timestamp":"2017-03-07T03:52:48.579Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.2458678323914196,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"entities\":{\"intent\":[{\"confidence\":0.9304017054949832,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T03:52:49.744Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T03:52:49.745Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T03:52:49.745Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-49611","timestamp":"2017-03-07T03:52:50.487Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.28289908395909114,\"type\":\"stop\"}","timestamp":"2017-03-07T03:52:51.786Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T03:52:51.787Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T03:52:51.787Z"}
+{"level":"info","message":"Starting botpress version 0.1.3","timestamp":"2017-03-07T03:59:50.466Z"}
+{"level":"info","message":"loaded 2 modules","timestamp":"2017-03-07T03:59:50.903Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-07T03:59:50.930Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-07T03:59:50.931Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-07T03:59:50.931Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mbot launched, visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-07T03:59:50.943Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-07T03:59:50.980Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-07T03:59:59.296Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-27990&q=hi","timestamp":"2017-03-07T04:00:31.613Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"entities\":{\"intent\":[{\"confidence\":0.9304017054949832,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T04:00:33.319Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:00:33.325Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T04:00:33.326Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-27990","timestamp":"2017-03-07T04:00:34.001Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-07T04:00:35.067Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:00:35.067Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T04:00:35.068Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-27990&q=%D0%B4%D0%B0%D0%BD%D1%81","timestamp":"2017-03-07T04:00:52.613Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.2431167344342142,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{}}","timestamp":"2017-03-07T04:00:53.688Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:00:53.689Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T04:00:53.690Z"}
+{"level":"error","message":"[botpress] Unhandled error in middleware (incoming), error: No 'getCurrencyRates' action found.","timestamp":"2017-03-07T04:00:53.691Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-27990&q=%D1%85%D1%88&reset=true","timestamp":"2017-03-07T04:04:18.002Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-27990&q=hi&reset=true","timestamp":"2017-03-07T04:04:18.016Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-27990&q=hi&reset=true","timestamp":"2017-03-07T04:04:18.223Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.2458678323914196,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"йыбйб\"],\"entities\":{\"intent\":[{\"confidence\":0.9304018324074792,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T04:04:19.221Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"ээээээ\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"хш\",\"suggested\":true}]}}","timestamp":"2017-03-07T04:04:19.223Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.2458678323914196,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"йыбйб\"],\"entities\":{\"intent\":[{\"confidence\":0.9304018324074792,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T04:04:19.253Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:04:19.254Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T04:04:19.255Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-27990","timestamp":"2017-03-07T04:04:20.270Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.28289908395909114,\"type\":\"stop\"}","timestamp":"2017-03-07T04:04:21.612Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:04:21.613Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T04:04:21.614Z"}
+{"level":"info","message":"Starting botpress version 0.1.3","timestamp":"2017-03-07T04:04:47.457Z"}
+{"level":"info","message":"loaded 2 modules","timestamp":"2017-03-07T04:04:47.888Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-07T04:04:47.915Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-07T04:04:47.916Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-07T04:04:47.916Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mbot launched, visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-07T04:04:47.928Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-07T04:04:47.964Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-07T04:05:00.822Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-22615&q=hi","timestamp":"2017-03-07T04:21:22.322Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9304023055694643,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T04:21:25.081Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:21:25.083Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T04:21:25.084Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-22615","timestamp":"2017-03-07T04:21:26.396Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-07T04:21:27.609Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:21:27.609Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T04:21:27.610Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-22615&q=khj","timestamp":"2017-03-07T04:24:58.362Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-22615&q=hi&reset=true","timestamp":"2017-03-07T04:24:58.371Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-22615&q=hi&reset=true","timestamp":"2017-03-07T04:24:58.380Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.2431167344342142,\"type\":\"action\",\"action\":\"getStarted\",\"entities\":{\"location\":[{\"confidence\":0.9386224623109324,\"type\":\"value\",\"value\":\"khj\",\"suggested\":true}]}}","timestamp":"2017-03-07T04:24:59.799Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9304023055694643,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T04:24:59.943Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9304023055694643,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T04:25:00.280Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:25:00.281Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T04:25:00.282Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-22615","timestamp":"2017-03-07T04:25:01.242Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-07T04:25:02.714Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:25:02.715Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T04:25:02.716Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-22615&q=1","timestamp":"2017-03-07T04:25:24.830Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.2431167344342142,\"type\":\"action\",\"action\":\"getStarted\",\"entities\":{}}","timestamp":"2017-03-07T04:25:26.917Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:25:26.919Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T04:25:26.920Z"}
+{"sessionId":"1414981491876399-22615","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"1","entities":{},"level":"info","message":"getStarted called","timestamp":"2017-03-07T04:25:26.929Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-22615","timestamp":"2017-03-07T04:25:26.930Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.2800485757226742,\"type\":\"stop\"}","timestamp":"2017-03-07T04:25:28.297Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:25:28.298Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T04:25:28.299Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-22615&q=%D0%A5%D0%B0%D0%BD%D1%88%D0%B8%D0%B9%D0%BD%20%D0%BC%D1%8D%D0%B4%D1%8D%D1%8D%D0%BB%D1%8D%D0%BB","timestamp":"2017-03-07T04:26:10.625Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.19917568964491122,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.6681323459370869,\"type\":\"value\",\"value\":\"Ханшийн мэдээлэл\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9912092198993938,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-07T04:26:12.049Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:26:12.051Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T04:26:12.051Z"}
+{"sessionId":"1414981491876399-22615","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханшийн мэдээлэл","entities":{"location":[{"confidence":0.6681323459370869,"type":"value","value":"Ханшийн мэдээлэл","suggested":true}],"intent":[{"confidence":0.9912092198993938,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-07T04:26:12.060Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-22615","timestamp":"2017-03-07T04:26:12.061Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.23405218326209531,\"type\":\"stop\"}","timestamp":"2017-03-07T04:26:13.488Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:26:13.490Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T04:26:13.491Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-22615&q=%D0%B3%D2%AF%D0%B9%D0%BB%D0%B3%D1%8D%D1%8D","timestamp":"2017-03-07T04:30:45.551Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.2000207900366314,\"type\":\"action\",\"action\":\"getStarted\",\"entities\":{\"location\":[{\"confidence\":0.49766934586963696,\"type\":\"value\",\"value\":\"гүйлгээ\",\"suggested\":true}],\"intent\":[{\"confidence\":0.980831109203312,\"value\":\"inbank\"}]}}","timestamp":"2017-03-07T04:30:46.907Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:30:46.909Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T04:30:46.910Z"}
+{"sessionId":"1414981491876399-22615","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"гүйлгээ","entities":{"location":[{"confidence":0.49766934586963696,"type":"value","value":"гүйлгээ","suggested":true}],"intent":[{"confidence":0.980831109203312,"value":"inbank"}]},"level":"info","message":"getStarted called","timestamp":"2017-03-07T04:30:46.917Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-22615","timestamp":"2017-03-07T04:30:46.917Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.2349457668371448,\"type\":\"stop\"}","timestamp":"2017-03-07T04:30:48.094Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T04:30:48.095Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T04:30:48.098Z"}
+{"level":"info","message":"Starting botpress version 0.1.3","timestamp":"2017-03-07T05:29:11.648Z"}
+{"level":"info","message":"loaded 2 modules","timestamp":"2017-03-07T05:29:12.085Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-07T05:29:12.111Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-07T05:29:12.112Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-07T05:29:12.112Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mbot launched, visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-07T05:29:12.125Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-07T05:29:12.160Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-07T05:29:20.261Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-62743&q=hi","timestamp":"2017-03-07T05:29:54.060Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9304023055694643,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T05:29:56.717Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T05:29:56.718Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T05:29:56.719Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-62743","timestamp":"2017-03-07T05:29:57.252Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-07T05:29:58.434Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T05:29:58.435Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T05:29:58.435Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-62743&q=hi","timestamp":"2017-03-07T05:31:21.715Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.2458678323914196,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9304023055694643,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T05:31:23.037Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T05:31:23.038Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T05:31:23.041Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-62743","timestamp":"2017-03-07T05:31:26.147Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.28289908395909114,\"type\":\"stop\"}","timestamp":"2017-03-07T05:31:27.729Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T05:31:27.730Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T05:31:27.731Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-62743&q=ooo","timestamp":"2017-03-07T05:32:27.451Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.16296463817939275,\"type\":\"action\",\"action\":\"getStarted\",\"entities\":{\"location\":[{\"confidence\":0.6924932100058849,\"type\":\"value\",\"value\":\"ooo\",\"suggested\":true}]}}","timestamp":"2017-03-07T05:32:28.701Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T05:32:28.702Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T05:32:28.703Z"}
+{"sessionId":"1414981491876399-62743","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"ooo","entities":{"location":[{"confidence":0.6924932100058849,"type":"value","value":"ooo","suggested":true}]},"level":"info","message":"getStarted called","timestamp":"2017-03-07T05:32:28.717Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-62743","timestamp":"2017-03-07T05:32:28.718Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.19538176974074178,\"type\":\"stop\"}","timestamp":"2017-03-07T05:32:30.003Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T05:32:30.004Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T05:32:30.006Z"}
+{"level":"info","message":"Starting botpress version 0.1.3","timestamp":"2017-03-07T05:33:35.007Z"}
+{"level":"info","message":"loaded 2 modules","timestamp":"2017-03-07T05:33:35.443Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-07T05:33:35.469Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-07T05:33:35.470Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-07T05:33:35.471Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mbot launched, visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-07T05:33:35.482Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-07T05:33:35.517Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-07T05:33:47.594Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-75002&q=hi","timestamp":"2017-03-07T05:35:15.647Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9304023055694643,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T05:35:17.210Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T05:35:17.212Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T05:35:17.213Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-75002","timestamp":"2017-03-07T05:35:17.708Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-07T05:35:18.986Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T05:35:18.988Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T05:35:18.989Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-75002&q=%D0%94%D0%B0%D0%BD%D1%81%D0%BD%D1%8B%20%D0%BC%D1%8D%D0%B4%D1%8D%D1%8D%D0%BB%D1%8D%D0%BB","timestamp":"2017-03-07T05:35:47.400Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"action\",\"action\":\"getUserAccounts\",\"entities\":{\"location\":[{\"confidence\":0.5278400812826523,\"type\":\"value\",\"value\":\"Дансны мэдээлэл\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9844558630115608,\"value\":\"accounts\"}]}}","timestamp":"2017-03-07T05:35:48.702Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T05:35:48.703Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T05:35:48.704Z"}
+{"level":"error","message":"[botpress] Unhandled error in middleware (incoming), error: userId is not defined","timestamp":"2017-03-07T05:35:48.706Z"}
+{"level":"info","message":"Starting botpress version 0.1.3","timestamp":"2017-03-07T05:40:34.125Z"}
+{"level":"info","message":"loaded 2 modules","timestamp":"2017-03-07T05:40:34.561Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-07T05:40:34.587Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-07T05:40:34.588Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-07T05:40:34.588Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mbot launched, visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-07T05:40:34.600Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-07T05:40:34.638Z"}
+{"message":"[messenger] error updating ngrok","name":"Error","cause":{"error_code":103,"status_code":502,"msg":"failed to start tunnel","details":{"err":"session closed"}},"isOperational":true,"stack":"Error: failed to start tunnel\n    at Request._callback (C:\\node\\botpress\\node_modules\\ngrok\\index.js:148:30)\n    at Request.self.callback (C:\\node\\botpress\\node_modules\\request\\request.js:187:22)\n    at emitTwo (events.js:106:13)\n    at Request.emit (events.js:191:7)\n    at Request.<anonymous> (C:\\node\\botpress\\node_modules\\request\\request.js:1126:10)\n    at emitOne (events.js:96:13)\n    at Request.emit (events.js:188:7)\n    at IncomingMessage.<anonymous> (C:\\node\\botpress\\node_modules\\request\\request.js:1046:12)\n    at IncomingMessage.g (events.js:291:16)\n    at emitNone (events.js:91:20)\n    at IncomingMessage.emit (events.js:185:7)\n    at endReadableNT (_stream_readable.js:974:12)\n    at _combinedTickCallback (internal/process/next_tick.js:74:11)\n    at process._tickCallback (internal/process/next_tick.js:98:9)","error_code":103,"status_code":502,"msg":"failed to start tunnel","details":{"err":"session closed"},"level":"error","timestamp":"2017-03-07T05:40:36.872Z"}
+{"level":"error","message":"[notification::botpress-messenger] Error updating app webhook with new ngrok url. Please see logs for details.","timestamp":"2017-03-07T05:40:36.884Z"}
+{"level":"info","message":"Starting botpress version 0.1.3","timestamp":"2017-03-07T06:14:48.622Z"}
+{"level":"info","message":"loaded 2 modules","timestamp":"2017-03-07T06:14:49.089Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-07T06:14:49.117Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-07T06:14:49.118Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-07T06:14:49.118Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mbot launched, visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-07T06:14:49.131Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-07T06:14:49.171Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-07T06:20:23.145Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953&q=hi","timestamp":"2017-03-07T06:20:44.457Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9304023055694643,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T06:20:45.985Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T06:20:45.987Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T06:20:45.989Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953","timestamp":"2017-03-07T06:20:46.485Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-07T06:20:47.833Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T06:20:47.834Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T06:20:47.835Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953&q=%D0%94%D0%B0%D0%BD%D1%81%D0%BD%D1%8B%20%D0%BC%D1%8D%D0%B4%D1%8D%D1%8D%D0%BB%D1%8D%D0%BB","timestamp":"2017-03-07T06:21:08.801Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"action\",\"action\":\"getUserAccounts\",\"entities\":{\"location\":[{\"confidence\":0.5278400812826523,\"type\":\"value\",\"value\":\"Дансны мэдээлэл\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9844558630115608,\"value\":\"accounts\"}]}}","timestamp":"2017-03-07T06:21:11.267Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T06:21:11.268Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T06:21:11.269Z"}
+{"sessionId":"1414981491876399-63953","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Дансны мэдээлэл","entities":{"location":[{"confidence":0.5278400812826523,"type":"value","value":"Дансны мэдээлэл","suggested":true}],"intent":[{"confidence":0.9844558630115608,"value":"accounts"}]},"level":"info","message":"getUserAccounts called","timestamp":"2017-03-07T06:21:11.283Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953","timestamp":"2017-03-07T06:21:11.284Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-07T06:21:12.549Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T06:21:12.550Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T06:21:12.550Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953&q=sdfsdf","timestamp":"2017-03-07T06:44:00.895Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.11699775539933285,\"type\":\"action\",\"action\":\"getStarted\",\"entities\":{\"location\":[{\"confidence\":0.6178798810930755,\"type\":\"value\",\"value\":\"sdfsdf\",\"suggested\":true}]}}","timestamp":"2017-03-07T06:44:02.326Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T06:44:02.327Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T06:44:02.327Z"}
+{"sessionId":"1414981491876399-63953","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"sdfsdf","entities":{"location":[{"confidence":0.6178798810930755,"type":"value","value":"sdfsdf","suggested":true}]},"level":"info","message":"getStarted called","timestamp":"2017-03-07T06:44:02.332Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953","timestamp":"2017-03-07T06:44:02.333Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.14499725379430348,\"type\":\"stop\"}","timestamp":"2017-03-07T06:44:03.258Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T06:44:03.259Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T06:44:03.260Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953&q=asdasdasda","timestamp":"2017-03-07T06:44:21.590Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953&q=asdasdasd&reset=true","timestamp":"2017-03-07T06:44:21.600Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.11195022260679234,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"location\":[{\"confidence\":0.5250324659821545,\"type\":\"value\",\"value\":\"asdasdasda\",\"suggested\":true}]}}","timestamp":"2017-03-07T06:44:22.564Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953&q=sdfsdf&reset=true","timestamp":"2017-03-07T06:44:22.662Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.11195022260679234,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{}}","timestamp":"2017-03-07T06:44:22.870Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.11195022260679234,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"location\":[{\"confidence\":0.6178798810930755,\"type\":\"value\",\"value\":\"sdfsdf\",\"suggested\":true}]}}","timestamp":"2017-03-07T06:44:23.693Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T06:44:23.694Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T06:44:23.695Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953&q=hfghfgh&reset=true","timestamp":"2017-03-07T06:44:23.898Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.11195022260679234,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"location\":[{\"confidence\":0.8410299293589103,\"type\":\"value\",\"value\":\"hfghfgh\",\"suggested\":true}]}}","timestamp":"2017-03-07T06:44:24.815Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T06:44:24.816Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T06:44:24.817Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953","timestamp":"2017-03-07T06:44:25.668Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.1393549710253791,\"type\":\"stop\"}","timestamp":"2017-03-07T06:44:26.512Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T06:44:26.513Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T06:44:26.514Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953&q=hi","timestamp":"2017-03-07T07:03:56.306Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.15441825203150567,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9304023055694643,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T07:03:57.583Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:03:57.585Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:03:57.585Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953","timestamp":"2017-03-07T07:03:58.062Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.14139511032811242,\"type\":\"stop\"}","timestamp":"2017-03-07T07:03:58.922Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:03:58.923Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:03:58.924Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953&q=%D0%94%D0%B0%D0%BD%D1%81%D0%BD%D1%8B%20%D0%BC%D1%8D%D0%B4%D1%8D%D1%8D%D0%BB%D1%8D%D0%BB","timestamp":"2017-03-07T07:04:32.920Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.14477279994207823,\"type\":\"action\",\"action\":\"getUserAccounts\",\"entities\":{\"location\":[{\"confidence\":0.5278400812826523,\"type\":\"value\",\"value\":\"Дансны мэдээлэл\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9844558630115608,\"value\":\"accounts\"}]}}","timestamp":"2017-03-07T07:04:33.956Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:04:33.957Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T07:04:33.958Z"}
+{"sessionId":"1414981491876399-63953","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Дансны мэдээлэл","entities":{"location":[{"confidence":0.5278400812826523,"type":"value","value":"Дансны мэдээлэл","suggested":true}],"intent":[{"confidence":0.9844558630115608,"value":"accounts"}]},"level":"info","message":"getUserAccounts called","timestamp":"2017-03-07T07:04:33.962Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953","timestamp":"2017-03-07T07:04:33.962Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.03600516064021033,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"]}","timestamp":"2017-03-07T07:04:34.825Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:04:34.827Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:04:34.828Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953","timestamp":"2017-03-07T07:04:35.328Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.10941231093248922,\"type\":\"stop\"}","timestamp":"2017-03-07T07:04:36.364Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:04:36.365Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:04:36.365Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953&q=a","timestamp":"2017-03-07T07:06:34.288Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.05151977682611801,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{}}","timestamp":"2017-03-07T07:06:35.413Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:06:35.414Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:06:35.415Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63953","timestamp":"2017-03-07T07:06:35.913Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.05907327999213782,\"type\":\"stop\"}","timestamp":"2017-03-07T07:06:36.853Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:06:36.854Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:06:36.854Z"}
+{"level":"info","message":"Starting botpress version 0.1.3","timestamp":"2017-03-07T07:07:20.377Z"}
+{"level":"info","message":"loaded 2 modules","timestamp":"2017-03-07T07:07:20.816Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-07T07:07:20.843Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-07T07:07:20.843Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-07T07:07:20.844Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mbot launched, visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-07T07:07:20.857Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-07T07:07:20.931Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-07T07:07:28.752Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-29228&q=sdf","timestamp":"2017-03-07T07:08:48.295Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.17692120631776423,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"location\":[{\"confidence\":0.6595607637145353,\"type\":\"value\",\"value\":\"sdf\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:08:49.737Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:08:49.739Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:08:49.739Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-29228","timestamp":"2017-03-07T07:08:50.233Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.15691893920799865,\"type\":\"stop\"}","timestamp":"2017-03-07T07:08:51.277Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:08:51.278Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:08:51.278Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-29228&q=%D0%94%D0%B0%D0%BD%D1%81%D0%BD%D1%8B%20%D0%BC%D1%8D%D0%B4%D1%8D%D1%8D%D0%BB%D1%8D%D0%BB","timestamp":"2017-03-07T07:10:15.392Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.1431610630461402,\"type\":\"action\",\"action\":\"getUserAccounts\",\"entities\":{\"location\":[{\"confidence\":0.5278400812826523,\"type\":\"value\",\"value\":\"Дансны мэдээлэл\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9844558630115608,\"value\":\"accounts\"}]}}","timestamp":"2017-03-07T07:10:16.612Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:10:16.614Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T07:10:16.614Z"}
+{"level":"error","message":"[botpress] Unhandled error in middleware (incoming), error: context is not defined","timestamp":"2017-03-07T07:10:16.617Z"}
+{"level":"info","message":"Starting botpress version 0.1.3","timestamp":"2017-03-07T07:11:33.498Z"}
+{"level":"info","message":"loaded 2 modules","timestamp":"2017-03-07T07:11:33.930Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-07T07:11:33.955Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-07T07:11:33.956Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-07T07:11:33.956Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mbot launched, visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-07T07:11:33.968Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-07T07:11:34.003Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-07T07:11:41.365Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057&q=hi","timestamp":"2017-03-07T07:12:30.844Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9304023055694643,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T07:12:32.070Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:12:32.071Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:12:32.072Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057","timestamp":"2017-03-07T07:12:32.561Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-07T07:12:33.468Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:12:33.469Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:12:33.470Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057&q=%D0%94%D0%B0%D0%BD%D1%81%D0%BD%D1%8B%20%D0%BC%D1%8D%D0%B4%D1%8D%D1%8D%D0%BB%D1%8D%D0%BB","timestamp":"2017-03-07T07:12:42.687Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"action\",\"action\":\"getUserAccounts\",\"entities\":{\"location\":[{\"confidence\":0.5278400812826523,\"type\":\"value\",\"value\":\"Дансны мэдээлэл\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9844558630115608,\"value\":\"accounts\"}]}}","timestamp":"2017-03-07T07:12:43.634Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:12:43.636Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T07:12:43.637Z"}
+{"botpress_platform":"facebook","botpress_type":"message","level":"info","message":"getUserAccounts called","timestamp":"2017-03-07T07:12:43.644Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057","timestamp":"2017-03-07T07:12:43.645Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Таны дансны үлдэгдэл 250000265\"}","timestamp":"2017-03-07T07:12:44.584Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"balance\":\"250000265\"}","timestamp":"2017-03-07T07:12:44.586Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:12:44.587Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057","timestamp":"2017-03-07T07:12:45.086Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-07T07:12:45.987Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"balance\":\"250000265\"}","timestamp":"2017-03-07T07:12:45.988Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:12:45.989Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057&q=%D0%94%D0%B0%D0%BD%D1%81%D0%BD%D1%8B%20%D0%BC%D1%8D%D0%B4%D1%8D%D1%8D%D0%BB%D1%8D%D0%BB","timestamp":"2017-03-07T07:13:57.185Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.03709944944625705,\"type\":\"action\",\"action\":\"getUserAccounts\",\"entities\":{\"location\":[{\"confidence\":0.5278400812826523,\"type\":\"value\",\"value\":\"Дансны мэдээлэл\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9844558630115608,\"value\":\"accounts\"}]}}","timestamp":"2017-03-07T07:13:58.119Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"balance\":\"250000265\"}","timestamp":"2017-03-07T07:13:58.120Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T07:13:58.120Z"}
+{"botpress_platform":"facebook","botpress_type":"message","balance":"250000265","level":"info","message":"getUserAccounts called","timestamp":"2017-03-07T07:13:58.125Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057","timestamp":"2017-03-07T07:13:58.126Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.05157398840459928,\"type\":\"msg\",\"msg\":\"Таны дансны үлдэгдэл 250000265\"}","timestamp":"2017-03-07T07:13:59.040Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"balance\":\"250000265\"}","timestamp":"2017-03-07T07:13:59.042Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:13:59.043Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057","timestamp":"2017-03-07T07:13:59.607Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.057873424983059786,\"type\":\"stop\"}","timestamp":"2017-03-07T07:14:00.714Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"balance\":\"250000265\"}","timestamp":"2017-03-07T07:14:00.715Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:14:00.716Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057&q=%D0%94%D0%B0%D0%BD%D1%81%D0%BD%D1%8B%20%D0%BC%D1%8D%D0%B4%D1%8D%D1%8D%D0%BB%D1%8D%D0%BB","timestamp":"2017-03-07T07:16:16.885Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.026374988842771202,\"type\":\"action\",\"action\":\"getUserAccounts\",\"entities\":{\"location\":[{\"confidence\":0.5278400812826523,\"type\":\"value\",\"value\":\"Дансны мэдээлэл\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9844558630115608,\"value\":\"accounts\"}]}}","timestamp":"2017-03-07T07:16:17.850Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"balance\":\"250000265\"}","timestamp":"2017-03-07T07:16:17.854Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T07:16:17.855Z"}
+{"botpress_platform":"facebook","botpress_type":"message","balance":"250000265","level":"info","message":"getUserAccounts called","timestamp":"2017-03-07T07:16:17.859Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057","timestamp":"2017-03-07T07:16:17.861Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.037937879793243125,\"type\":\"msg\",\"msg\":\"Таны дансны үлдэгдэл 250000265\"}","timestamp":"2017-03-07T07:16:18.798Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"balance\":\"250000265\"}","timestamp":"2017-03-07T07:16:18.799Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:16:18.800Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057","timestamp":"2017-03-07T07:16:19.290Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04828688429832457,\"type\":\"stop\"}","timestamp":"2017-03-07T07:16:20.301Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"balance\":\"250000265\"}","timestamp":"2017-03-07T07:16:20.302Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:16:20.304Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057&q=Get%20Started","timestamp":"2017-03-07T07:17:42.144Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.02760286113516391,\"type\":\"msg\",\"msg\":\"Таны дансны үлдэгдэл 250000265\",\"entities\":{}}","timestamp":"2017-03-07T07:17:43.109Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"balance\":\"250000265\"}","timestamp":"2017-03-07T07:17:43.110Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:17:43.111Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057","timestamp":"2017-03-07T07:17:48.706Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.03653824811188068,\"type\":\"stop\"}","timestamp":"2017-03-07T07:17:49.683Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"balance\":\"250000265\"}","timestamp":"2017-03-07T07:17:49.684Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:17:49.685Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057&q=Hi","timestamp":"2017-03-07T07:20:13.169Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.033646589325626225,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Дансны мэдээлэл\",\"Ханшийн мэдээлэл\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9304023055694643,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T07:20:14.588Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"balance\":\"250000265\"}","timestamp":"2017-03-07T07:20:14.589Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:20:14.589Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057","timestamp":"2017-03-07T07:20:15.116Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.03586481115916725,\"type\":\"stop\"}","timestamp":"2017-03-07T07:20:16.056Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"balance\":\"250000265\"}","timestamp":"2017-03-07T07:20:16.056Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:20:16.057Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-56057&q=Hi","timestamp":"2017-03-07T07:22:51.915Z"}
+{"level":"info","message":"Starting botpress version 0.1.3","timestamp":"2017-03-07T07:22:59.816Z"}
+{"level":"info","message":"loaded 2 modules","timestamp":"2017-03-07T07:23:00.284Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-07T07:23:00.312Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-07T07:23:00.313Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-07T07:23:00.313Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mbot launched, visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-07T07:23:00.326Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-07T07:23:00.364Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-07T07:23:07.309Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-79691&q=hi%20hi","timestamp":"2017-03-07T07:29:53.735Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.5988330075414667,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T07:29:55.133Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:29:55.135Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:29:55.136Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-79691","timestamp":"2017-03-07T07:29:55.635Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-07T07:29:56.711Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:29:56.712Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:29:56.713Z"}
+{"level":"info","message":"Starting botpress version 0.1.3","timestamp":"2017-03-07T07:30:40.333Z"}
+{"level":"info","message":"loaded 2 modules","timestamp":"2017-03-07T07:30:40.769Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-07T07:30:40.795Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-07T07:30:40.796Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-07T07:30:40.796Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mbot launched, visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-07T07:30:40.808Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-07T07:30:40.843Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-07T07:30:48.457Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=%D0%94%D0%B0%D0%BD%D1%81","timestamp":"2017-03-07T07:30:56.017Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getUserAccounts\",\"entities\":{\"intent\":[{\"confidence\":0.9432731077661363,\"value\":\"accounts\"}]}}","timestamp":"2017-03-07T07:30:57.644Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-07T07:30:57.645Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T07:30:57.646Z"}
+{"sessionId":"1414981491876399-92660","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Данс","entities":{"intent":[{"confidence":0.9432731077661363,"value":"accounts"}]},"level":"info","message":"getUserAccounts called","timestamp":"2017-03-07T07:30:57.658Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:30:57.659Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.12836447079548194,\"type\":\"stop\"}","timestamp":"2017-03-07T07:30:58.541Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:30:58.542Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:30:58.543Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=%D1%85%D1%88","timestamp":"2017-03-07T07:31:59.975Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04196718023197883,\"type\":\"action\",\"action\":\"getUserAccounts\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"хш\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:32:00.940Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:32:00.941Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T07:32:00.942Z"}
+{"sessionId":"1414981491876399-92660","context":{"botpress_platform":"facebook","botpress_type":"message","accounts":"250000265"},"text":"хш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"хш","suggested":true}]},"level":"info","message":"getUserAccounts called","timestamp":"2017-03-07T07:32:00.948Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:32:00.948Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Hi&reset=true","timestamp":"2017-03-07T07:32:01.874Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.048610518437865576,\"type\":\"stop\"}","timestamp":"2017-03-07T07:32:01.933Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.052268801228987916,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9304077328559718,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T07:32:02.939Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:32:02.941Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:32:02.942Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:32:03.422Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.048610518437865555,\"type\":\"stop\"}","timestamp":"2017-03-07T07:32:04.338Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:32:04.339Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:32:04.340Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=%D0%94%D0%B0%D0%BD%D1%81","timestamp":"2017-03-07T07:33:09.977Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.03549346573075425,\"type\":\"action\",\"action\":\"getUserAccounts\",\"entities\":{\"intent\":[{\"confidence\":0.9432731077661363,\"value\":\"accounts\"}]}}","timestamp":"2017-03-07T07:33:10.944Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:33:10.945Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T07:33:10.945Z"}
+{"sessionId":"1414981491876399-92660","context":{"botpress_platform":"facebook","botpress_type":"message","accounts":"250000265"},"text":"Данс","entities":{"intent":[{"confidence":0.9432731077661363,"value":"accounts"}]},"level":"info","message":"getUserAccounts called","timestamp":"2017-03-07T07:33:10.949Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:33:10.950Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04214624544758646,\"type\":\"msg\",\"msg\":\"250000265\"}","timestamp":"2017-03-07T07:33:11.933Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:33:11.934Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:33:11.935Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:33:12.431Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04152159162624283,\"type\":\"stop\"}","timestamp":"2017-03-07T07:33:13.363Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:33:13.365Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:33:13.367Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Za%20minii%20dansnii%20uldegdel","timestamp":"2017-03-07T07:37:02.140Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.016471792925947075,\"type\":\"msg\",\"msg\":\"250000265\",\"entities\":{\"location\":[{\"confidence\":0.9558304596477355,\"type\":\"value\",\"value\":\"Za minii dansnii uldegdel\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:37:03.121Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:37:03.123Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:37:03.124Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:37:03.624Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.019123200906836172,\"type\":\"stop\"}","timestamp":"2017-03-07T07:37:04.574Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:37:04.575Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:37:04.576Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Unen%20uu","timestamp":"2017-03-07T07:37:14.049Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.013461058094854216,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{}}","timestamp":"2017-03-07T07:37:15.091Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:37:15.092Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:37:15.094Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:37:15.639Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.01841690898418985,\"type\":\"msg\",\"msg\":\"250000265\"}","timestamp":"2017-03-07T07:37:16.939Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:37:16.941Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:37:16.941Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:37:17.493Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.022022299495769837,\"type\":\"stop\"}","timestamp":"2017-03-07T07:37:18.458Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:37:18.459Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:37:18.460Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Tiim%20uu","timestamp":"2017-03-07T07:37:26.868Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.014671327908997507,\"type\":\"msg\",\"msg\":\"250000265\",\"entities\":{\"location\":[{\"confidence\":0.6419523680276953,\"type\":\"value\",\"value\":\"Tiim uu\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:37:27.905Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:37:27.906Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:37:27.908Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:37:28.718Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.019207757637550043,\"type\":\"stop\"}","timestamp":"2017-03-07T07:37:29.992Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:37:29.993Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:37:29.993Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Uu%20zaza","timestamp":"2017-03-07T07:37:39.248Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015992677184774096,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"location\":[{\"confidence\":0.9469522610968315,\"type\":\"value\",\"value\":\"Uu zaza\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:37:40.291Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:37:40.292Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:37:40.294Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:37:40.787Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.020741406025854933,\"type\":\"msg\",\"msg\":\"250000265\"}","timestamp":"2017-03-07T07:37:41.762Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:37:41.764Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:37:41.765Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:37:42.267Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.024353427632813503,\"type\":\"stop\"}","timestamp":"2017-03-07T07:37:43.249Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:37:43.249Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:37:43.249Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Hhabvaa","timestamp":"2017-03-07T07:38:17.401Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015350659193800256,\"type\":\"msg\",\"msg\":\"250000265\",\"entities\":{\"location\":[{\"confidence\":0.8712831378124078,\"type\":\"value\",\"value\":\"Hhabvaa\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:38:18.612Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:38:18.613Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:38:18.614Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:38:19.105Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.019954877951898965,\"type\":\"stop\"}","timestamp":"2017-03-07T07:38:20.070Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:38:20.072Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:38:20.072Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Jjj","timestamp":"2017-03-07T07:38:24.904Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015992677184774096,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"location\":[{\"confidence\":0.8352526355397474,\"type\":\"value\",\"value\":\"Jjj\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:38:25.928Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:38:25.929Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:38:25.929Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:38:26.407Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.020741406025854933,\"type\":\"msg\",\"msg\":\"250000265\"}","timestamp":"2017-03-07T07:38:27.379Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:38:27.380Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:38:27.381Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:38:27.868Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.024353427632813503,\"type\":\"stop\"}","timestamp":"2017-03-07T07:38:28.919Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:38:28.920Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:38:28.921Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Chi%20yag%20bot%20uu%20%3F","timestamp":"2017-03-07T07:39:40.130Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015350659193800256,\"type\":\"msg\",\"msg\":\"250000265\",\"entities\":{\"location\":[{\"confidence\":0.7723875889932335,\"type\":\"value\",\"value\":\"Chi yag\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:39:41.184Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:39:41.186Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:39:41.187Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:39:41.770Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.019954877951898965,\"type\":\"stop\"}","timestamp":"2017-03-07T07:39:42.796Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:39:42.797Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:39:42.798Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=%D0%B9%D1%8B%D0%B1","timestamp":"2017-03-07T07:40:01.858Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015992677184774096,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"location\":[{\"confidence\":0.5429254259279583,\"type\":\"value\",\"value\":\"йыб\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:40:02.802Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:40:02.803Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:40:02.805Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:40:03.289Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.020741406025854933,\"type\":\"msg\",\"msg\":\"250000265\"}","timestamp":"2017-03-07T07:40:04.208Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:40:04.209Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:40:04.210Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:40:04.696Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.024353427632813503,\"type\":\"stop\"}","timestamp":"2017-03-07T07:40:05.583Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:40:05.584Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:40:05.585Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=%D1%8B%D0%BE%D0%B1%D1%80%D3%A9%D0%BE%D1%80%D0%B0%D1%85%D0%BE%D3%A9%D0%B1%D1%8B","timestamp":"2017-03-07T07:41:00.455Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015350659193800256,\"type\":\"msg\",\"msg\":\"Таны 250000265\",\"entities\":{}}","timestamp":"2017-03-07T07:41:01.485Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:41:01.486Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:41:01.487Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:41:01.987Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.019954877951898965,\"type\":\"stop\"}","timestamp":"2017-03-07T07:41:03.967Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:41:03.974Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:41:03.976Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=%D1%8B%D1%8B%D0%B1%D3%A9%D0%B0%D1%8B%D0%B1%D0%B0%D3%A9","timestamp":"2017-03-07T07:41:06.521Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015992677184774096,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"location\":[{\"confidence\":0.5039312727077812,\"type\":\"value\",\"value\":\"ыыбөаыбаө\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:41:07.412Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:41:07.414Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:41:07.415Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:41:07.902Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.020741406025854933,\"type\":\"msg\",\"msg\":\"Таны 250000265\"}","timestamp":"2017-03-07T07:41:08.979Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:41:08.980Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:41:08.981Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:41:09.471Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.024353427632813503,\"type\":\"stop\"}","timestamp":"2017-03-07T07:41:10.372Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:41:10.373Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:41:10.374Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Sain%20uuu","timestamp":"2017-03-07T07:41:51.649Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015350659193800256,\"type\":\"msg\",\"msg\":\"Таны 250000265\",\"entities\":{\"location\":[{\"confidence\":0.650844526940402,\"type\":\"value\",\"value\":\"Sain uuu\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:41:52.544Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:41:52.545Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:41:52.546Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:41:53.040Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.019954877951898965,\"type\":\"stop\"}","timestamp":"2017-03-07T07:41:54.104Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:41:54.105Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:41:54.106Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=ghj","timestamp":"2017-03-07T07:44:22.341Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015992677184774096,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"location\":[{\"confidence\":0.920214494787743,\"type\":\"value\",\"value\":\"ghj\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:44:23.310Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:44:23.312Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:44:23.313Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:44:23.820Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.020741406025854933,\"type\":\"msg\",\"msg\":\"Таны 250000265\"}","timestamp":"2017-03-07T07:44:24.736Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:44:24.737Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:44:24.738Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:44:25.227Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.024353427632813503,\"type\":\"stop\"}","timestamp":"2017-03-07T07:44:26.259Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:44:26.260Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:44:26.261Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=hi","timestamp":"2017-03-07T07:46:37.126Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.02097095494940607,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.91607756199006,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T07:46:38.167Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:46:38.168Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:46:38.168Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:46:38.668Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.021529367223181033,\"type\":\"stop\"}","timestamp":"2017-03-07T07:46:39.693Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:46:39.694Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:46:39.694Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=d","timestamp":"2017-03-07T07:47:09.321Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.017326369407903084,\"type\":\"msg\",\"msg\":\"Та аль банк рүү гүйлгээ хийх вэ ?\",\"entities\":{}}","timestamp":"2017-03-07T07:47:10.831Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:47:10.833Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:47:10.834Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:47:11.312Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.023849699711478132,\"type\":\"msg\",\"msg\":\"Таны 250000265\"}","timestamp":"2017-03-07T07:47:12.375Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:47:12.376Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:47:12.378Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:47:12.869Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.027396310744348527,\"type\":\"stop\"}","timestamp":"2017-03-07T07:47:13.864Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:47:13.865Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:47:13.866Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Dansnii%20uldegdel","timestamp":"2017-03-07T07:57:40.579Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Huue%20yaav&reset=true","timestamp":"2017-03-07T07:57:40.588Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Huue%20yaav&reset=true","timestamp":"2017-03-07T07:57:40.598Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Huue%20yaav&reset=true","timestamp":"2017-03-07T07:57:40.604Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Huue%20yaav&reset=true","timestamp":"2017-03-07T07:57:40.611Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Huue%20yaav&reset=true","timestamp":"2017-03-07T07:57:40.614Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Huue%20yaav&reset=true","timestamp":"2017-03-07T07:57:40.618Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.014103125165101977,\"type\":\"msg\",\"msg\":\"Таны 250000265\",\"entities\":{\"location\":[{\"confidence\":0.8491242067475558,\"type\":\"value\",\"value\":\"Dansnii uldegdel\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:57:41.560Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.017326369407903084,\"type\":\"msg\",\"msg\":\"Та аль банк рүү гүйлгээ хийх вэ ?\",\"entities\":{}}","timestamp":"2017-03-07T07:57:41.630Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.017326369407903084,\"type\":\"msg\",\"msg\":\"Та аль банк рүү гүйлгээ хийх вэ ?\",\"entities\":{}}","timestamp":"2017-03-07T07:57:41.641Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.017326369407903084,\"type\":\"msg\",\"msg\":\"Та аль банк рүү гүйлгээ хийх вэ ?\",\"entities\":{}}","timestamp":"2017-03-07T07:57:41.643Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:57:41.646Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:57:41.647Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.017326369407903084,\"type\":\"msg\",\"msg\":\"Та аль банк рүү гүйлгээ хийх вэ ?\",\"entities\":{}}","timestamp":"2017-03-07T07:57:41.715Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.017326369407903084,\"type\":\"msg\",\"msg\":\"Та аль банк рүү гүйлгээ хийх вэ ?\",\"entities\":{}}","timestamp":"2017-03-07T07:57:41.863Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:57:42.128Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015350659193800256,\"type\":\"msg\",\"msg\":\"Таны 250000265\",\"entities\":{}}","timestamp":"2017-03-07T07:57:42.327Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.019954877951898965,\"type\":\"stop\"}","timestamp":"2017-03-07T07:57:43.030Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:57:43.031Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:57:43.031Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Huue%20yaav","timestamp":"2017-03-07T07:57:58.874Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015992677184774096,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{}}","timestamp":"2017-03-07T07:58:00.146Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:58:00.147Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:58:00.148Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Na%20m%20tag&reset=true","timestamp":"2017-03-07T07:58:00.156Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015992677184774096,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"location\":[{\"confidence\":0.5950721857785014,\"type\":\"value\",\"value\":\"Na m tag\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:58:01.160Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:58:01.161Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:58:01.162Z"}
+{"message":"Unhandled Rejection in Promise:  Promise {\n  _bitField: 18087936,\n  _fulfillmentHandler0: \n   TypeError: Cannot convert undefined or null to object\n       at incomingMiddleware (C:\\node\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:24:14)\n       at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n       at next (C:\\node\\botpress\\node_modules\\mware\\index.js:60:9)\n       at C:\\node\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n       at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n       at Function.run (C:\\node\\botpress\\node_modules\\mware\\index.js:63:7)\n       at Object.dispatch (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n       at Object.sendIncoming (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:157:22)\n       at C:\\node\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:35:22\n       at tryCatcher (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n       at Promise._settlePromiseFromHandler (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n       at Promise._settlePromise (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n       at Promise._settlePromiseCtx (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n       at Async._drainQueue (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n       at Async._drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n       at Immediate.Async.drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n       at runCallback (timers.js:649:20)\n       at tryOnImmediate (timers.js:622:5)\n       at processImmediate [as _immediateCallback] (timers.js:594:5),\n  _rejectionHandler0: undefined,\n  _promise0: undefined,\n  _receiver0: undefined } Reason:","stack":"TypeError: Cannot convert undefined or null to object\n    at incomingMiddleware (C:\\node\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:24:14)\n    at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n    at next (C:\\node\\botpress\\node_modules\\mware\\index.js:60:9)\n    at C:\\node\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n    at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n    at Function.run (C:\\node\\botpress\\node_modules\\mware\\index.js:63:7)\n    at Object.dispatch (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n    at Object.sendIncoming (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:157:22)\n    at C:\\node\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:35:22\n    at tryCatcher (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromiseCtx (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n    at Async._drainQueue (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at Async._drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n    at Immediate.Async.drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:649:20)\n    at tryOnImmediate (timers.js:622:5)\n    at processImmediate [as _immediateCallback] (timers.js:594:5)","level":"error","timestamp":"2017-03-07T07:58:01.497Z"}
+{"level":"error","message":"TypeError: Cannot convert undefined or null to object\n    at incomingMiddleware (C:\\node\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:24:14)\n    at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n    at next (C:\\node\\botpress\\node_modules\\mware\\index.js:60:9)\n    at C:\\node\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n    at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n    at Function.run (C:\\node\\botpress\\node_modules\\mware\\index.js:63:7)\n    at Object.dispatch (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n    at Object.sendIncoming (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:157:22)\n    at C:\\node\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:35:22\n    at tryCatcher (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromiseCtx (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n    at Async._drainQueue (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at Async._drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n    at Immediate.Async.drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:649:20)\n    at tryOnImmediate (timers.js:622:5)\n    at processImmediate [as _immediateCallback] (timers.js:594:5)","timestamp":"2017-03-07T07:58:01.500Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:58:01.943Z"}
+{"message":"Unhandled Rejection in Promise:  Promise {\n  _bitField: 18087936,\n  _fulfillmentHandler0: \n   TypeError: Cannot convert undefined or null to object\n       at incomingMiddleware (C:\\node\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:24:14)\n       at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n       at next (C:\\node\\botpress\\node_modules\\mware\\index.js:60:9)\n       at C:\\node\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n       at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n       at Function.run (C:\\node\\botpress\\node_modules\\mware\\index.js:63:7)\n       at Object.dispatch (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n       at Object.sendIncoming (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:157:22)\n       at C:\\node\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:35:22\n       at tryCatcher (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n       at Promise._settlePromiseFromHandler (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n       at Promise._settlePromise (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n       at Promise._settlePromiseCtx (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n       at Async._drainQueue (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n       at Async._drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n       at Immediate.Async.drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n       at runCallback (timers.js:649:20)\n       at tryOnImmediate (timers.js:622:5)\n       at processImmediate [as _immediateCallback] (timers.js:594:5),\n  _rejectionHandler0: undefined,\n  _promise0: undefined,\n  _receiver0: undefined } Reason:","stack":"TypeError: Cannot convert undefined or null to object\n    at incomingMiddleware (C:\\node\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:24:14)\n    at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n    at next (C:\\node\\botpress\\node_modules\\mware\\index.js:60:9)\n    at C:\\node\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n    at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n    at Function.run (C:\\node\\botpress\\node_modules\\mware\\index.js:63:7)\n    at Object.dispatch (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n    at Object.sendIncoming (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:157:22)\n    at C:\\node\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:35:22\n    at tryCatcher (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromiseCtx (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n    at Async._drainQueue (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at Async._drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n    at Immediate.Async.drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:649:20)\n    at tryOnImmediate (timers.js:622:5)\n    at processImmediate [as _immediateCallback] (timers.js:594:5)","level":"error","timestamp":"2017-03-07T07:58:02.685Z"}
+{"level":"error","message":"TypeError: Cannot convert undefined or null to object\n    at incomingMiddleware (C:\\node\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:24:14)\n    at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n    at next (C:\\node\\botpress\\node_modules\\mware\\index.js:60:9)\n    at C:\\node\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n    at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n    at Function.run (C:\\node\\botpress\\node_modules\\mware\\index.js:63:7)\n    at Object.dispatch (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n    at Object.sendIncoming (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:157:22)\n    at C:\\node\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:35:22\n    at tryCatcher (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromiseCtx (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n    at Async._drainQueue (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at Async._drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n    at Immediate.Async.drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:649:20)\n    at tryOnImmediate (timers.js:622:5)\n    at processImmediate [as _immediateCallback] (timers.js:594:5)","timestamp":"2017-03-07T07:58:02.689Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.020741406025854933,\"type\":\"msg\",\"msg\":\"Таны 250000265\"}","timestamp":"2017-03-07T07:58:02.981Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:58:02.982Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:58:02.983Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:58:03.477Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.024353427632813503,\"type\":\"stop\"}","timestamp":"2017-03-07T07:58:04.439Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:58:04.440Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:58:04.441Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Yu%20bolov","timestamp":"2017-03-07T07:58:36.066Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015350659193800256,\"type\":\"msg\",\"msg\":\"Таны 250000265\",\"entities\":{\"location\":[{\"confidence\":0.9772842507070627,\"type\":\"value\",\"value\":\"Yu bolov\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:58:37.028Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:58:37.029Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:58:37.030Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Nam%20tag%20chig&reset=true","timestamp":"2017-03-07T07:58:37.340Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015350659193800256,\"type\":\"msg\",\"msg\":\"Таны 250000265\",\"entities\":{\"location\":[{\"confidence\":0.9114653339414343,\"type\":\"value\",\"value\":\"Nam tag chig\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:58:38.297Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:58:38.298Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:58:38.299Z"}
+{"message":"Unhandled Rejection in Promise:  Promise {\n  _bitField: 18087936,\n  _fulfillmentHandler0: \n   TypeError: Cannot convert undefined or null to object\n       at incomingMiddleware (C:\\node\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:24:14)\n       at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n       at next (C:\\node\\botpress\\node_modules\\mware\\index.js:60:9)\n       at C:\\node\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n       at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n       at Function.run (C:\\node\\botpress\\node_modules\\mware\\index.js:63:7)\n       at Object.dispatch (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n       at Object.sendIncoming (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:157:22)\n       at C:\\node\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:35:22\n       at tryCatcher (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n       at Promise._settlePromiseFromHandler (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n       at Promise._settlePromise (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n       at Promise._settlePromiseCtx (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n       at Async._drainQueue (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n       at Async._drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n       at Immediate.Async.drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n       at runCallback (timers.js:649:20)\n       at tryOnImmediate (timers.js:622:5)\n       at processImmediate [as _immediateCallback] (timers.js:594:5),\n  _rejectionHandler0: undefined,\n  _promise0: undefined,\n  _receiver0: undefined } Reason:","stack":"TypeError: Cannot convert undefined or null to object\n    at incomingMiddleware (C:\\node\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:24:14)\n    at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n    at next (C:\\node\\botpress\\node_modules\\mware\\index.js:60:9)\n    at C:\\node\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n    at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n    at Function.run (C:\\node\\botpress\\node_modules\\mware\\index.js:63:7)\n    at Object.dispatch (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n    at Object.sendIncoming (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:157:22)\n    at C:\\node\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:35:22\n    at tryCatcher (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromiseCtx (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n    at Async._drainQueue (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at Async._drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n    at Immediate.Async.drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:649:20)\n    at tryOnImmediate (timers.js:622:5)\n    at processImmediate [as _immediateCallback] (timers.js:594:5)","level":"error","timestamp":"2017-03-07T07:58:38.633Z"}
+{"level":"error","message":"TypeError: Cannot convert undefined or null to object\n    at incomingMiddleware (C:\\node\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:24:14)\n    at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n    at next (C:\\node\\botpress\\node_modules\\mware\\index.js:60:9)\n    at C:\\node\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n    at exec (C:\\node\\botpress\\node_modules\\mware\\index.js:50:23)\n    at Function.run (C:\\node\\botpress\\node_modules\\mware\\index.js:63:7)\n    at Object.dispatch (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n    at Object.sendIncoming (C:\\node\\botpress\\node_modules\\botpress\\src\\middlewares.js:157:22)\n    at C:\\node\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:35:22\n    at tryCatcher (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromiseCtx (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n    at Async._drainQueue (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at Async._drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n    at Immediate.Async.drainQueues (C:\\node\\botpress\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:649:20)\n    at tryOnImmediate (timers.js:622:5)\n    at processImmediate [as _immediateCallback] (timers.js:594:5)","timestamp":"2017-03-07T07:58:38.637Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:58:38.799Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.019954877951898965,\"type\":\"stop\"}","timestamp":"2017-03-07T07:58:39.691Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:58:39.693Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:58:39.694Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Hi","timestamp":"2017-03-07T07:58:39.987Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.020520972966345318,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.91607756199006,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T07:58:41.247Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:58:41.248Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:58:41.250Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:58:41.727Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.02115167547533933,\"type\":\"stop\"}","timestamp":"2017-03-07T07:58:42.633Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:58:42.634Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:58:42.634Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Ovoo%20hariulaad%20baisan%20yaav","timestamp":"2017-03-07T07:58:46.717Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.016839731578866212,\"type\":\"msg\",\"msg\":\"Та аль банк рүү гүйлгээ хийх вэ ?\",\"entities\":{\"location\":[{\"confidence\":0.9257287253517905,\"type\":\"value\",\"value\":\"Ovoo hariulaad baisan yaav\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:58:47.844Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:58:47.846Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:58:47.847Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:58:48.385Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.023639423267760855,\"type\":\"msg\",\"msg\":\"Таны 250000265\"}","timestamp":"2017-03-07T07:58:49.300Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:58:49.301Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:58:49.302Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:58:49.786Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.02719294535257377,\"type\":\"stop\"}","timestamp":"2017-03-07T07:58:50.743Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:58:50.744Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:58:50.745Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Ali%20bankind%20guilgee%20hiih%20ve","timestamp":"2017-03-07T07:59:14.470Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.014029614315365552,\"type\":\"msg\",\"msg\":\"Таны 250000265\",\"entities\":{\"location\":[{\"confidence\":0.7340575803287093,\"type\":\"value\",\"value\":\"Ali bankind guilgee hiih ve\",\"suggested\":true}]}}","timestamp":"2017-03-07T07:59:15.438Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:59:15.439Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:59:15.441Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:59:15.955Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.018496081054645747,\"type\":\"stop\"}","timestamp":"2017-03-07T07:59:16.848Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:59:16.849Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:59:16.850Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Ta%20gend%20shiljuuleh%20ve","timestamp":"2017-03-07T07:59:31.743Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.01486945503908414,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{}}","timestamp":"2017-03-07T07:59:32.713Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:59:32.714Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:59:32.715Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:59:33.505Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.01977880966924282,\"type\":\"msg\",\"msg\":\"Таны 250000265\"}","timestamp":"2017-03-07T07:59:34.413Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:59:34.414Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T07:59:34.415Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T07:59:34.903Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.02339420880231647,\"type\":\"stop\"}","timestamp":"2017-03-07T07:59:35.985Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T07:59:35.987Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T07:59:35.988Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=hi","timestamp":"2017-03-07T08:02:30.273Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.02097095494940607,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.91607756199006,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T08:02:31.842Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:02:31.844Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T08:02:31.845Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T08:02:32.349Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.021529367223181033,\"type\":\"stop\"}","timestamp":"2017-03-07T08:02:33.257Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:02:33.258Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T08:02:33.259Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=%D0%93%D2%AF%D0%B9%D0%BB%D0%B3%D1%8D%D1%8D","timestamp":"2017-03-07T08:02:50.778Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.02234933050736147,\"type\":\"msg\",\"msg\":\"Та аль банк рүү гүйлгээ хийх вэ ?\",\"entities\":{\"location\":[{\"confidence\":0.49766934586963696,\"type\":\"value\",\"value\":\"Гүйлгээ\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9776811528332356,\"value\":\"inbank\"}]}}","timestamp":"2017-03-07T08:02:52.025Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:02:52.027Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T08:02:52.027Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T08:02:52.524Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.023849699711478132,\"type\":\"msg\",\"msg\":\"Таны 250000265\"}","timestamp":"2017-03-07T08:02:53.593Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:02:53.597Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T08:02:53.598Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T08:02:54.088Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.027396310744348527,\"type\":\"stop\"}","timestamp":"2017-03-07T08:02:55.059Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:02:55.061Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T08:02:55.062Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=hi","timestamp":"2017-03-07T08:04:10.921Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.016806105284148082,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.91607756199006,\"value\":\"greetings\"}]}}","timestamp":"2017-03-07T08:04:11.920Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:04:11.921Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T08:04:11.922Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T08:04:12.410Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.01795692413416018,\"type\":\"stop\"}","timestamp":"2017-03-07T08:04:13.379Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:04:13.381Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T08:04:13.382Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-07T08:04:33.463Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.019255478344720394,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876377,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-07T08:04:34.426Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:04:34.427Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-07T08:04:34.427Z"}
+{"sessionId":"1414981491876399-92660","context":{"botpress_platform":"facebook","botpress_type":"message","accounts":"250000265"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876377,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-07T08:04:34.438Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T08:04:34.438Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.02108591974508383,\"type\":\"msg\",\"msg\":\"Таны 250000265\"}","timestamp":"2017-03-07T08:04:35.415Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:04:35.416Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T08:04:35.417Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T08:04:36.204Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.024694714918121995,\"type\":\"stop\"}","timestamp":"2017-03-07T08:04:37.209Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:04:37.210Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T08:04:37.211Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=hello","timestamp":"2017-03-07T08:34:47.839Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.014429588102465623,\"type\":\"msg\",\"msg\":\"Таны 250000265\",\"entities\":{}}","timestamp":"2017-03-07T08:34:48.922Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:34:48.923Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T08:34:48.924Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T08:34:49.418Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.017894470847102037,\"type\":\"stop\"}","timestamp":"2017-03-07T08:34:50.391Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:34:50.392Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T08:34:50.392Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=turn%20off","timestamp":"2017-03-07T08:34:59.469Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.013940304558175243,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{}}","timestamp":"2017-03-07T08:35:00.491Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:35:00.493Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T08:35:00.493Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T08:35:00.984Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.01841690898418985,\"type\":\"msg\",\"msg\":\"Таны 250000265\"}","timestamp":"2017-03-07T08:35:01.947Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:35:01.947Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-07T08:35:01.948Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660","timestamp":"2017-03-07T08:35:02.441Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.022022299495769837,\"type\":\"stop\"}","timestamp":"2017-03-07T08:35:03.341Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:35:03.342Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T08:35:03.343Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Hi","timestamp":"2017-03-07T12:33:08.230Z"}

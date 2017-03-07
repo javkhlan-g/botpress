@@ -1,0 +1,20 @@
+{
+  "name": "ckbot",
+  "version": "0.0.1",
+  "description": "demo banking bot",
+  "main": "index.js",
+  "dependencies": {
+    "botpress": "0.x",
+    "botpress-messenger": "^2.0.5",
+    "botpress-wit": "^2.0.10"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "javkhlan.g",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "babel-preset-env": "^1.2.1"
+  }
+}
