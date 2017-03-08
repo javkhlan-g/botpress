@@ -713,3 +713,726 @@
 {"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-07T08:35:03.342Z"}
 {"level":"debug","message":"Response type: stop","timestamp":"2017-03-07T08:35:03.343Z"}
 {"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92660&q=Hi","timestamp":"2017-03-07T12:33:08.230Z"}
+{"level":"info","message":"Creating data directory: D:\\bombor\\projects\\botpress\\modules_config","timestamp":"2017-03-08T04:32:09.521Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T04:32:09.525Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T04:32:19.984Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T04:32:20.522Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T04:32:20.524Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T04:32:20.525Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T04:32:20.552Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T04:32:20.657Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T04:32:28.949Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-15159&q=%D0%94%D0%B0%D0%BD%D1%81","timestamp":"2017-03-08T04:53:58.368Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getUserAccounts\",\"entities\":{\"intent\":[{\"confidence\":0.9436289961619404,\"value\":\"accounts\"}]}}","timestamp":"2017-03-08T04:54:00.915Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T04:54:00.916Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T04:54:00.918Z"}
+{"sessionId":"1414981491876399-15159","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Данс","entities":{"intent":[{"confidence":0.9436289961619404,"value":"accounts"}]},"level":"info","message":"getUserAccounts called","timestamp":"2017-03-08T04:54:00.924Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-15159","timestamp":"2017-03-08T04:54:00.925Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.12836447079548194,\"type\":\"msg\",\"msg\":\"Таны 250000265\"}","timestamp":"2017-03-08T04:54:02.319Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-08T04:54:02.320Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T04:54:02.320Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-15159","timestamp":"2017-03-08T04:54:02.764Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.09761591142570879,\"type\":\"stop\"}","timestamp":"2017-03-08T04:54:04.382Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-08T04:54:04.383Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T04:54:04.383Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-15159&q=Hi","timestamp":"2017-03-08T04:54:11.873Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04195986860164087,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.91607756199006,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T04:54:13.318Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-08T04:54:13.319Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T04:54:13.320Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-15159","timestamp":"2017-03-08T04:54:13.729Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.03549346573075425,\"type\":\"stop\"}","timestamp":"2017-03-08T04:54:14.769Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-08T04:54:14.772Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T04:54:14.772Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-15159&q=%D1%85%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T04:54:31.406Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.031177561175611934,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876377,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T04:54:33.257Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-08T04:54:33.257Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T04:54:33.257Z"}
+{"sessionId":"1414981491876399-15159","context":{"botpress_platform":"facebook","botpress_type":"message","accounts":"250000265"},"text":"ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"ханш","suggested":true}],"intent":[{"confidence":0.9681606007876377,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T04:54:33.260Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-15159","timestamp":"2017-03-08T04:54:33.260Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.02971827442694381,\"type\":\"msg\",\"msg\":\"Таны 250000265\"}","timestamp":"2017-03-08T04:54:34.237Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-08T04:54:34.238Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T04:54:34.240Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-15159","timestamp":"2017-03-08T04:54:34.742Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.03124070165428051,\"type\":\"stop\"}","timestamp":"2017-03-08T04:54:35.739Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-08T04:54:35.740Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T04:54:35.740Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-15159&q=Hansh","timestamp":"2017-03-08T04:55:50.416Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015563589043172774,\"type\":\"msg\",\"msg\":\"Таны 250000265\",\"entities\":{}}","timestamp":"2017-03-08T04:55:51.604Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-08T04:55:51.604Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T04:55:51.605Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-15159","timestamp":"2017-03-08T04:55:52.053Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.018232187232763805,\"type\":\"stop\"}","timestamp":"2017-03-08T04:55:53.175Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"accounts\":\"250000265\"}","timestamp":"2017-03-08T04:55:53.177Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T04:55:53.178Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T05:06:00.288Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T05:06:00.725Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T05:06:00.756Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T05:06:00.756Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T05:06:00.756Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T05:06:00.787Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T05:06:00.834Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T05:06:07.633Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-52798&q=%D1%85%D1%88","timestamp":"2017-03-08T05:06:32.823Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.1353352832366127,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"хш\",\"suggested\":true}]}}","timestamp":"2017-03-08T05:06:34.155Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T05:06:34.157Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T05:06:34.159Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-52798","timestamp":"2017-03-08T05:06:34.669Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.10135717356688538,\"type\":\"stop\"}","timestamp":"2017-03-08T05:06:35.868Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T05:06:35.868Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T05:06:35.869Z"}
+{"level":"info","message":"New user: Javkhlan Gansukh","timestamp":"2017-03-08T05:07:07.245Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T05:20:12.543Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T05:20:12.984Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T05:20:13.020Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T05:20:13.021Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T05:20:13.022Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T05:20:13.039Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T05:20:13.122Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T05:20:20.785Z"}
+{"level":"info","message":"New user: Javkhlan Gansukh","timestamp":"2017-03-08T05:21:01.440Z"}
+{"message":"Unhandled Rejection in Promise:  Promise {\n  _bitField: 18087936,\n  _fulfillmentHandler0: \n   TypeError: Promise.mapSeries is not a function\n       at bp.hear (D:\\bombor\\projects\\botpress\\index.js:75:13)\n       at D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\listeners.js:29:9\n       at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n       at Function.run (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:63:7)\n       at handler (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\hear.js:8:11)\n       at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n       at next (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:60:9)\n       at incomingMiddleware (D:\\bombor\\projects\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:36:5)\n       at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n       at next (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:60:9)\n       at D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n       at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n       at Function.run (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:63:7)\n       at Object.dispatch (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n       at Object.sendIncoming (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\middlewares.js:156:22)\n       at D:\\bombor\\projects\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:72:22\n       at tryCatcher (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n       at Promise._settlePromiseFromHandler (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n       at Promise._settlePromise (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n       at Promise._settlePromiseCtx (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n       at Async._drainQueue (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n       at Async._drainQueues (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10),\n  _rejectionHandler0: undefined,\n  _promise0: undefined,\n  _receiver0: undefined } Reason:","stack":"TypeError: Promise.mapSeries is not a function\n    at bp.hear (D:\\bombor\\projects\\botpress\\index.js:75:13)\n    at D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\listeners.js:29:9\n    at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n    at Function.run (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:63:7)\n    at handler (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\hear.js:8:11)\n    at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n    at next (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:60:9)\n    at incomingMiddleware (D:\\bombor\\projects\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:36:5)\n    at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n    at next (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:60:9)\n    at D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n    at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n    at Function.run (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:63:7)\n    at Object.dispatch (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n    at Object.sendIncoming (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\middlewares.js:156:22)\n    at D:\\bombor\\projects\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:72:22\n    at tryCatcher (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromiseCtx (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n    at Async._drainQueue (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at Async._drainQueues (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)","level":"error","timestamp":"2017-03-08T05:21:01.745Z"}
+{"level":"error","message":"TypeError: Promise.mapSeries is not a function\n    at bp.hear (D:\\bombor\\projects\\botpress\\index.js:75:13)\n    at D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\listeners.js:29:9\n    at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n    at Function.run (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:63:7)\n    at handler (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\hear.js:8:11)\n    at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n    at next (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:60:9)\n    at incomingMiddleware (D:\\bombor\\projects\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:36:5)\n    at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n    at next (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:60:9)\n    at D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n    at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n    at Function.run (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:63:7)\n    at Object.dispatch (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n    at Object.sendIncoming (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\middlewares.js:156:22)\n    at D:\\bombor\\projects\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:72:22\n    at tryCatcher (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromiseCtx (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n    at Async._drainQueue (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at Async._drainQueues (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)","timestamp":"2017-03-08T05:21:01.808Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T05:23:58.206Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T05:23:58.643Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T05:23:58.690Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T05:23:58.690Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T05:23:58.690Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T05:23:58.705Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T05:23:58.752Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T05:24:06.823Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-23621&q=Get%20Started","timestamp":"2017-03-08T05:24:10.817Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.1353352832366127,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{}}","timestamp":"2017-03-08T05:24:13.103Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T05:24:13.106Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T05:24:13.107Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-23621","timestamp":"2017-03-08T05:24:13.873Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.10135717356688538,\"type\":\"stop\"}","timestamp":"2017-03-08T05:24:15.076Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T05:24:15.077Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T05:24:15.077Z"}
+{"level":"info","message":"New user: Javkhlan Gansukh","timestamp":"2017-03-08T05:24:37.662Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T06:27:36.393Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T06:27:36.836Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T06:27:36.873Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T06:27:36.874Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T06:27:36.875Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T06:27:36.893Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T06:27:36.948Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T06:27:44.230Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63712&q=hi","timestamp":"2017-03-08T06:28:55.419Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63712&q=hi&reset=true","timestamp":"2017-03-08T06:28:56.576Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.91607756199006,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T06:28:56.772Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.91607756199006,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T06:28:57.625Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T06:28:57.626Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T06:28:57.627Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63712&q=hi&reset=true","timestamp":"2017-03-08T06:28:57.926Z"}
+{"message":"Unhandled Rejection in Promise:  Promise {\n  _bitField: 18087936,\n  _fulfillmentHandler0: \n   TypeError: Cannot convert undefined or null to object\n       at incomingMiddleware (D:\\bombor\\projects\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:24:14)\n       at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n       at next (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:60:9)\n       at D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n       at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n       at Function.run (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:63:7)\n       at Object.dispatch (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n       at Object.sendIncoming (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\middlewares.js:156:22)\n       at D:\\bombor\\projects\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:35:22\n       at tryCatcher (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n       at Promise._settlePromiseFromHandler (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n       at Promise._settlePromise (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n       at Promise._settlePromiseCtx (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n       at Async._drainQueue (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n       at Async._drainQueues (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n       at Immediate.Async.drainQueues (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n       at runCallback (timers.js:651:20)\n       at tryOnImmediate (timers.js:624:5)\n       at processImmediate [as _immediateCallback] (timers.js:596:5),\n  _rejectionHandler0: undefined,\n  _promise0: undefined,\n  _receiver0: undefined } Reason:","stack":"TypeError: Cannot convert undefined or null to object\n    at incomingMiddleware (D:\\bombor\\projects\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:24:14)\n    at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n    at next (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:60:9)\n    at D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n    at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n    at Function.run (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:63:7)\n    at Object.dispatch (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n    at Object.sendIncoming (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\middlewares.js:156:22)\n    at D:\\bombor\\projects\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:35:22\n    at tryCatcher (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromiseCtx (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n    at Async._drainQueue (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at Async._drainQueues (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n    at Immediate.Async.drainQueues (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:651:20)\n    at tryOnImmediate (timers.js:624:5)\n    at processImmediate [as _immediateCallback] (timers.js:596:5)","level":"error","timestamp":"2017-03-08T06:28:59.301Z"}
+{"level":"error","message":"TypeError: Cannot convert undefined or null to object\n    at incomingMiddleware (D:\\bombor\\projects\\botpress\\node_modules\\botpress-wit\\bin\\webpack:\\src\\index.js:24:14)\n    at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n    at next (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:60:9)\n    at D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\listeners.js:33:9\n    at exec (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:50:23)\n    at Function.run (D:\\bombor\\projects\\botpress\\node_modules\\mware\\index.js:63:7)\n    at Object.dispatch (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\middlewares.js:44:10)\n    at Object.sendIncoming (D:\\bombor\\projects\\botpress\\node_modules\\botpress\\src\\middlewares.js:156:22)\n    at D:\\bombor\\projects\\botpress\\node_modules\\botpress-messenger\\bin\\webpack:\\src\\incoming.js:35:22\n    at tryCatcher (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromiseCtx (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\promise.js:606:10)\n    at Async._drainQueue (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at Async._drainQueues (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n    at Immediate.Async.drainQueues (D:\\bombor\\projects\\botpress\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:651:20)\n    at tryOnImmediate (timers.js:624:5)\n    at processImmediate [as _immediateCallback] (timers.js:596:5)","timestamp":"2017-03-08T06:28:59.356Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.91607756199006,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T06:28:59.385Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T06:28:59.386Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T06:28:59.386Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63712","timestamp":"2017-03-08T06:28:59.800Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-08T06:29:00.888Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T06:29:00.889Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T06:29:00.890Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63712&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T06:29:16.793Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876377,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T06:29:17.889Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T06:29:17.890Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T06:29:17.891Z"}
+{"sessionId":"1414981491876399-63712","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876377,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T06:29:17.899Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63712","timestamp":"2017-03-08T06:29:17.900Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.08642436380493942,\"type\":\"stop\"}","timestamp":"2017-03-08T06:29:19.048Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T06:29:19.049Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T06:29:19.049Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63712&q=%D1%85%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:00:52.284Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04615965144214211,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:00:53.353Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:00:53.355Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:00:53.355Z"}
+{"sessionId":"1414981491876399-63712","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:00:53.361Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63712","timestamp":"2017-03-08T07:00:53.363Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.01920304088181087,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"]}","timestamp":"2017-03-08T07:00:54.454Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:00:54.455Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:00:54.497Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63712","timestamp":"2017-03-08T07:00:54.902Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.037240516973860244,\"type\":\"stop\"}","timestamp":"2017-03-08T07:00:55.999Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:00:56.002Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:00:56.004Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63712&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:01:12.453Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.024128949446857673,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:01:13.515Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:01:13.518Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:01:13.518Z"}
+{"sessionId":"1414981491876399-63712","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:01:13.522Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63712","timestamp":"2017-03-08T07:01:13.524Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.016055515172621746,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"]}","timestamp":"2017-03-08T07:01:14.577Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:01:14.582Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:01:14.583Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-63712","timestamp":"2017-03-08T07:01:14.986Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.02462160526045022,\"type\":\"stop\"}","timestamp":"2017-03-08T07:01:16.538Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:01:16.539Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:01:16.540Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:05:56.468Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:06:03.170Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:06:03.535Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:06:03.537Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:06:03.537Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:06:03.557Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:06:03.615Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:06:11.848Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-93778&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:06:23.578Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:06:24.918Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:06:24.920Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:06:24.920Z"}
+{"sessionId":"1414981491876399-93778","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:06:24.929Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-93778","timestamp":"2017-03-08T07:06:24.931Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.12836447079548194,\"type\":\"msg\",\"msg\":\"Ханш USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:06:25.978Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:06:25.979Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:06:25.980Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-93778","timestamp":"2017-03-08T07:06:26.402Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.09761591142570879,\"type\":\"stop\"}","timestamp":"2017-03-08T07:06:27.492Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:06:27.493Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:06:27.494Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:18:38.967Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:18:39.442Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:18:39.480Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:18:39.481Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:18:39.481Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:18:39.499Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:18:39.556Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:18:46.693Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-53163&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:19:06.631Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:19:08.001Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:19:08.006Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:19:08.008Z"}
+{"sessionId":"1414981491876399-53163","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:19:08.022Z"}
+{"level":"error","message":"[BOTPRESS] Unhandled error in middleware (incoming). Error: str is not defined","timestamp":"2017-03-08T07:19:08.028Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:19:59.711Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:20:00.178Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:20:00.216Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:20:00.217Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:20:00.218Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:20:00.235Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:20:00.293Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:20:07.700Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-57736&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:20:09.840Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:20:11.084Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:20:11.088Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:20:11.089Z"}
+{"sessionId":"1414981491876399-57736","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:20:11.109Z"}
+{"level":"error","message":"[BOTPRESS] Unhandled error in middleware (incoming). Error: str is not defined","timestamp":"2017-03-08T07:20:11.115Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:21:17.202Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:21:17.719Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:21:17.756Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:21:17.757Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:21:17.757Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:21:17.774Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:21:17.833Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:21:24.673Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-74973&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:21:31.161Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:21:32.560Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:21:32.563Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:21:32.564Z"}
+{"sessionId":"1414981491876399-74973","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:21:32.578Z"}
+{"level":"error","message":"[BOTPRESS] Unhandled error in middleware (incoming). Error: str is not defined","timestamp":"2017-03-08T07:21:32.583Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:22:44.975Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:22:45.512Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:22:45.549Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:22:45.550Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:22:45.550Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:22:45.567Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:22:45.666Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:22:52.659Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-81020&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:23:00.679Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:23:01.925Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:23:01.927Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:23:01.928Z"}
+{"sessionId":"1414981491876399-81020","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:23:01.940Z"}
+{"level":"error","message":"[BOTPRESS] Unhandled error in middleware (incoming). Error: str is not defined","timestamp":"2017-03-08T07:23:01.945Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:25:04.272Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:25:04.780Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:25:04.820Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:25:04.821Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:25:04.821Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:25:04.844Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:25:04.932Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:25:12.186Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-73452&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:25:17.203Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:25:18.501Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:25:18.503Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:25:18.505Z"}
+{"sessionId":"1414981491876399-73452","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:25:18.520Z"}
+{"level":"error","message":"[BOTPRESS] Unhandled error in middleware (incoming). Error: request is not a function","timestamp":"2017-03-08T07:25:18.561Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:29:58.747Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:29:59.195Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:29:59.232Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:29:59.232Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:29:59.233Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:29:59.250Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:29:59.305Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:30:06.346Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-85385&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:30:09.170Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:30:10.448Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:30:10.451Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:30:10.452Z"}
+{"sessionId":"1414981491876399-85385","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:30:10.472Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-85385","timestamp":"2017-03-08T07:30:10.476Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.12836447079548194,\"type\":\"msg\",\"msg\":\"Ханш USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:30:11.495Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:30:11.497Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:30:11.498Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-85385","timestamp":"2017-03-08T07:30:11.914Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.09761591142570879,\"type\":\"stop\"}","timestamp":"2017-03-08T07:30:12.901Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:30:12.903Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:30:12.904Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:32:48.891Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:32:49.361Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:32:49.399Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:32:49.400Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:32:49.400Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:32:49.419Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:32:49.502Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:32:56.461Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-65680&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:33:10.404Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:33:11.691Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:33:11.694Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:33:11.695Z"}
+{"sessionId":"1414981491876399-65680","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:33:11.710Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-65680","timestamp":"2017-03-08T07:33:11.714Z"}
+{"level":"info","message":"STATUS: 200","timestamp":"2017-03-08T07:33:11.853Z"}
+{"level":"info","message":"HEADERS: {\"date\":\"Wed, 08 Mar 2017 07:33:16 GMT\",\"server\":\"Apache/2.4.17 (Win64) OpenSSL/1.0.2e PHP/5.5.30\",\"x-powered-by\":\"PHP/5.5.30\",\"set-cookie\":[\"symfony=oj4lhienvvu82tf863scdtpk87; path=/\"],\"expires\":\"Thu, 19 Nov 1981 08:52:00 GMT\",\"cache-control\":\"no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"pragma\":\"no-cache\",\"content-length\":\"16\",\"connection\":\"close\",\"content-type\":\"text/html; charset=utf-8\"}","timestamp":"2017-03-08T07:33:11.855Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.12836447079548194,\"type\":\"msg\",\"msg\":\"Ханш USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:33:13.070Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:33:13.071Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:33:13.072Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-65680","timestamp":"2017-03-08T07:33:13.506Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.09761591142570879,\"type\":\"stop\"}","timestamp":"2017-03-08T07:33:14.492Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:33:14.492Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:33:14.494Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-65680&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:33:40.837Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.031193801661582053,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:33:41.807Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:33:41.807Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:33:41.808Z"}
+{"sessionId":"1414981491876399-65680","context":{"botpress_platform":"facebook","botpress_type":"message","rates":"USD авах - 2015 , зарах 2014"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:33:41.813Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-65680","timestamp":"2017-03-08T07:33:41.817Z"}
+{"level":"info","message":"STATUS: 200","timestamp":"2017-03-08T07:33:41.937Z"}
+{"level":"info","message":"HEADERS: {\"date\":\"Wed, 08 Mar 2017 07:33:46 GMT\",\"server\":\"Apache/2.4.17 (Win64) OpenSSL/1.0.2e PHP/5.5.30\",\"x-powered-by\":\"PHP/5.5.30\",\"set-cookie\":[\"symfony=v0tk77maqo1cm6t85e2j005j22; path=/\"],\"expires\":\"Thu, 19 Nov 1981 08:52:00 GMT\",\"cache-control\":\"no-store, no-cache, must-revalidate, post-check=0, pre-check=0\",\"pragma\":\"no-cache\",\"content-length\":\"16\",\"connection\":\"close\",\"content-type\":\"text/html; charset=utf-8\"}","timestamp":"2017-03-08T07:33:41.940Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.03773812650253511,\"type\":\"msg\",\"msg\":\"Ханш USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:33:42.927Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:33:42.928Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:33:42.929Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-65680","timestamp":"2017-03-08T07:33:43.340Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.03797205296231105,\"type\":\"stop\"}","timestamp":"2017-03-08T07:33:44.373Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:33:44.375Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:33:44.376Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:35:14.839Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:35:15.281Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:35:15.318Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:35:15.319Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:35:15.319Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:35:15.336Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:35:15.391Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:35:22.700Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-59725&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:35:25.262Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:35:26.694Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:35:26.696Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:35:26.697Z"}
+{"sessionId":"1414981491876399-59725","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:35:26.710Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-59725","timestamp":"2017-03-08T07:35:26.714Z"}
+{"level":"info","message":"RESPONSe FROM EBANK: 200","timestamp":"2017-03-08T07:35:26.865Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.12836447079548194,\"type\":\"msg\",\"msg\":\"Ханш USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:35:27.681Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:35:27.682Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:35:27.683Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-59725","timestamp":"2017-03-08T07:35:28.099Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.09761591142570879,\"type\":\"stop\"}","timestamp":"2017-03-08T07:35:29.893Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:35:29.895Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:35:29.896Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:36:28.748Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:36:29.204Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:36:29.241Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:36:29.242Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:36:29.242Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:36:29.260Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:36:29.316Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:36:36.443Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-04732&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:36:37.470Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:36:38.709Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:36:38.712Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:36:38.713Z"}
+{"sessionId":"1414981491876399-04732","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:36:38.732Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-04732","timestamp":"2017-03-08T07:36:38.736Z"}
+{"level":"info","message":"RESPONSe FROM EBANK: welcomeSmartBank","timestamp":"2017-03-08T07:36:38.868Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.12836447079548194,\"type\":\"msg\",\"msg\":\"Ханш USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:36:39.777Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:36:39.779Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:36:39.780Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-04732","timestamp":"2017-03-08T07:36:40.189Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.09761591142570879,\"type\":\"stop\"}","timestamp":"2017-03-08T07:36:41.337Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014\"}","timestamp":"2017-03-08T07:36:41.340Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:36:41.342Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:38:35.028Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:38:35.472Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:38:35.509Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:38:35.510Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:38:35.510Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:38:35.528Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:38:35.582Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:38:50.249Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-17823&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:38:54.035Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:38:55.242Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:38:55.243Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:38:55.244Z"}
+{"sessionId":"1414981491876399-17823","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:38:55.256Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-17823","timestamp":"2017-03-08T07:38:55.260Z"}
+{"level":"info","message":"RESPONSe FROM EBANK: welcomeSmartBank","timestamp":"2017-03-08T07:38:55.408Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04937446993568547,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"]}","timestamp":"2017-03-08T07:38:56.302Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014welcomeSmartBank\"}","timestamp":"2017-03-08T07:38:56.303Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:38:56.304Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-17823","timestamp":"2017-03-08T07:38:56.725Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.08251998775200482,\"type\":\"stop\"}","timestamp":"2017-03-08T07:38:57.732Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014welcomeSmartBank\"}","timestamp":"2017-03-08T07:38:57.733Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:38:57.733Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-17823&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:39:24.261Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.03433456402737201,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:39:25.341Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014welcomeSmartBank\"}","timestamp":"2017-03-08T07:39:25.342Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:39:25.343Z"}
+{"sessionId":"1414981491876399-17823","context":{"botpress_platform":"facebook","botpress_type":"message","rates":"USD авах - 2015 , зарах 2014welcomeSmartBank"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:39:25.349Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-17823","timestamp":"2017-03-08T07:39:25.353Z"}
+{"level":"info","message":"RESPONSe FROM EBANK: welcomeSmartBank","timestamp":"2017-03-08T07:39:25.475Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04096770470859642,\"type\":\"msg\",\"msg\":\"Ханш USD авах - 2015 , зарах 2014welcomeSmartBank\"}","timestamp":"2017-03-08T07:39:26.445Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014welcomeSmartBank\"}","timestamp":"2017-03-08T07:39:26.446Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:39:26.447Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-17823","timestamp":"2017-03-08T07:39:26.878Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04058215581639843,\"type\":\"stop\"}","timestamp":"2017-03-08T07:39:27.833Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"USD авах - 2015 , зарах 2014welcomeSmartBank\"}","timestamp":"2017-03-08T07:39:27.836Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:39:27.839Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:44:40.283Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:44:40.762Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:44:40.799Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:44:40.799Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:44:40.800Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:44:40.817Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:44:40.907Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:44:48.325Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-67043&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:44:57.711Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:44:58.980Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:44:58.982Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:44:58.983Z"}
+{"sessionId":"1414981491876399-67043","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:44:58.994Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-67043","timestamp":"2017-03-08T07:44:58.998Z"}
+{"level":"info","message":"RESPONSe FROM EBANK: welcomeSmartBank","timestamp":"2017-03-08T07:44:59.132Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04937446993568547,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"]}","timestamp":"2017-03-08T07:44:59.999Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":[\"USD авах - 2015 , зарах 2014\",\"RUB авах - 30 , зарах 35\"]}","timestamp":"2017-03-08T07:45:00.001Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:45:00.002Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-67043","timestamp":"2017-03-08T07:45:00.419Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.08251998775200482,\"type\":\"stop\"}","timestamp":"2017-03-08T07:45:01.343Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":[\"USD авах - 2015 , зарах 2014\",\"RUB авах - 30 , зарах 35\"]}","timestamp":"2017-03-08T07:45:01.344Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:45:01.345Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-67043&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:45:10.414Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.03433456402737201,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:45:11.502Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":[\"USD авах - 2015 , зарах 2014\",\"RUB авах - 30 , зарах 35\"]}","timestamp":"2017-03-08T07:45:11.503Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:45:11.504Z"}
+{"sessionId":"1414981491876399-67043","context":{"botpress_platform":"facebook","botpress_type":"message","rates":["USD авах - 2015 , зарах 2014","RUB авах - 30 , зарах 35"]},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:45:11.508Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-67043","timestamp":"2017-03-08T07:45:11.512Z"}
+{"level":"info","message":"RESPONSe FROM EBANK: welcomeSmartBank","timestamp":"2017-03-08T07:45:11.640Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04096770470859642,\"type\":\"msg\",\"msg\":\"Ханш [\\\"USD авах - 2015 , зарах 2014\\\" \\\"RUB авах - 30 , зарах 35\\\"]\"}","timestamp":"2017-03-08T07:45:12.600Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":[\"USD авах - 2015 , зарах 2014\",\"RUB авах - 30 , зарах 35\"]}","timestamp":"2017-03-08T07:45:12.603Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:45:12.607Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-67043","timestamp":"2017-03-08T07:45:13.028Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04058215581639843,\"type\":\"stop\"}","timestamp":"2017-03-08T07:45:13.967Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":[\"USD авах - 2015 , зарах 2014\",\"RUB авах - 30 , зарах 35\"]}","timestamp":"2017-03-08T07:45:13.968Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:45:13.970Z"}
+{"level":"info","message":"New user: Javkhlan Gansukh","timestamp":"2017-03-08T07:48:05.233Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:55:28.873Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:55:29.345Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:55:29.382Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:55:29.383Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:55:29.384Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:55:29.401Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:55:29.460Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:55:36.890Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-35803&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:55:55.207Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:55:56.462Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:55:56.464Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:55:56.465Z"}
+{"sessionId":"1414981491876399-35803","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:55:56.485Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-35803","timestamp":"2017-03-08T07:55:56.492Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04937446993568547,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"]}","timestamp":"2017-03-08T07:55:57.529Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах - 2015 , зарах 2014] [ RUB авах - 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:55:57.531Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:55:57.532Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-35803","timestamp":"2017-03-08T07:55:57.942Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.08251998775200482,\"type\":\"stop\"}","timestamp":"2017-03-08T07:55:58.938Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах - 2015 , зарах 2014] [ RUB авах - 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:55:58.940Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:55:58.942Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-35803&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:56:09.042Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.03433456402737201,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:56:10.022Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах - 2015 , зарах 2014] [ RUB авах - 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:56:10.023Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:56:10.024Z"}
+{"sessionId":"1414981491876399-35803","context":{"botpress_platform":"facebook","botpress_type":"message","rates":"[USD авах - 2015 , зарах 2014] [ RUB авах - 30 , зарах 35 ]"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:56:10.036Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-35803","timestamp":"2017-03-08T07:56:10.043Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04096770470859642,\"type\":\"msg\",\"msg\":\"Ханш [USD авах - 2015 , зарах 2014] [ RUB авах - 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:56:11.017Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах - 2015 , зарах 2014] [ RUB авах - 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:56:11.019Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:56:11.020Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-35803","timestamp":"2017-03-08T07:56:11.494Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04058215581639843,\"type\":\"stop\"}","timestamp":"2017-03-08T07:56:12.700Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах - 2015 , зарах 2014] [ RUB авах - 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:56:12.702Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:56:12.702Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-35803&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:57:32.602Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.018416371329573713,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:57:33.913Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах - 2015 , зарах 2014] [ RUB авах - 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:57:33.914Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:57:33.915Z"}
+{"sessionId":"1414981491876399-35803","context":{"botpress_platform":"facebook","botpress_type":"message","rates":"[USD авах - 2015 , зарах 2014] [ RUB авах - 30 , зарах 35 ]"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:57:33.928Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-35803","timestamp":"2017-03-08T07:57:33.935Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.023955618375887035,\"type\":\"msg\",\"msg\":\"Ханш [USD авах - 2015 , зарах 2014] [ RUB авах - 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:57:34.951Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах - 2015 , зарах 2014] [ RUB авах - 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:57:34.952Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:57:34.953Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-35803","timestamp":"2017-03-08T07:57:35.406Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.026147201867858284,\"type\":\"stop\"}","timestamp":"2017-03-08T07:57:36.443Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах - 2015 , зарах 2014] [ RUB авах - 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:57:36.445Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:57:36.446Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T07:57:48.260Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T07:57:48.749Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T07:57:48.786Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T07:57:48.787Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T07:57:48.788Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T07:57:48.805Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T07:57:48.902Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T07:57:56.730Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-72892&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:58:09.130Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.13641422692168553,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:58:10.397Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T07:58:10.399Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:58:10.400Z"}
+{"sessionId":"1414981491876399-72892","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:58:10.417Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-72892","timestamp":"2017-03-08T07:58:10.422Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04937446993568547,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"]}","timestamp":"2017-03-08T07:58:11.606Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:58:11.607Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:58:11.609Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-72892","timestamp":"2017-03-08T07:58:12.110Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.08251998775200482,\"type\":\"stop\"}","timestamp":"2017-03-08T07:58:13.147Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:58:13.150Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:58:13.152Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-72892&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T07:58:17.897Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.03433456402737201,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T07:58:18.858Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:58:18.859Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T07:58:18.860Z"}
+{"sessionId":"1414981491876399-72892","context":{"botpress_platform":"facebook","botpress_type":"message","rates":"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T07:58:18.863Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-72892","timestamp":"2017-03-08T07:58:18.869Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04096770470859642,\"type\":\"msg\",\"msg\":\"Ханш [USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:58:19.907Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:58:19.908Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T07:58:19.909Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-72892","timestamp":"2017-03-08T07:58:20.348Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04058215581639843,\"type\":\"stop\"}","timestamp":"2017-03-08T07:58:21.408Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T07:58:21.410Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T07:58:21.411Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T15:04:15.245Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T15:04:15.719Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T15:04:15.759Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T15:04:15.760Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T15:04:15.760Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T15:04:15.778Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T15:04:15.832Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T15:04:23.108Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-78669&q=hello","timestamp":"2017-03-08T15:10:07.009Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-78669&q=bye&reset=true","timestamp":"2017-03-08T15:10:08.429Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.1353352832366127,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{}}","timestamp":"2017-03-08T15:10:09.248Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-78669&q=bye&reset=true","timestamp":"2017-03-08T15:10:09.488Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.1353352832366127,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"location\":[{\"confidence\":0.5864797416062384,\"type\":\"value\",\"value\":\"bye\",\"suggested\":true}]}}","timestamp":"2017-03-08T15:10:09.504Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.1353352832366127,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"location\":[{\"confidence\":0.5864797416062384,\"type\":\"value\",\"value\":\"bye\",\"suggested\":true}]}}","timestamp":"2017-03-08T15:10:11.501Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T15:10:11.502Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T15:10:11.503Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-78669","timestamp":"2017-03-08T15:10:11.925Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.10135717356688538,\"type\":\"stop\"}","timestamp":"2017-03-08T15:10:13.283Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T15:10:13.284Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T15:10:13.285Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T15:32:10.274Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T15:32:11.850Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T15:32:11.961Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T15:32:11.963Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T15:32:11.965Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T15:32:12.025Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T15:32:12.213Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T15:32:21.437Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-05421&q=hi","timestamp":"2017-03-08T15:33:11.004Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9160775619900595,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T15:33:12.478Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T15:33:12.481Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T15:33:12.482Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-05421","timestamp":"2017-03-08T15:33:12.915Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-08T15:33:13.878Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T15:33:13.880Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T15:33:13.881Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T15:43:03.880Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T15:43:04.342Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T15:43:04.379Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T15:43:04.380Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T15:43:04.380Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T15:43:04.398Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T15:43:04.507Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T15:43:12.364Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-35463&q=hi","timestamp":"2017-03-08T15:43:13.959Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9160775619900595,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T15:43:16.733Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T15:43:16.736Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T15:43:16.737Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-35463","timestamp":"2017-03-08T15:43:17.165Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-08T15:43:18.267Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T15:43:18.268Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T15:43:18.273Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-35463&q=hi","timestamp":"2017-03-08T15:44:52.339Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.07230367805639161,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9160775619900595,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T15:44:53.902Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T15:44:53.903Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T15:44:53.903Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-35463","timestamp":"2017-03-08T15:44:54.318Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.06361617767541239,\"type\":\"stop\"}","timestamp":"2017-03-08T15:44:55.504Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T15:44:55.505Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T15:44:55.507Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T15:54:39.248Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T15:54:39.724Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T15:54:39.762Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T15:54:39.763Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T15:54:39.765Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T15:54:39.783Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T15:54:39.841Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T15:54:48.283Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-36679&q=hi","timestamp":"2017-03-08T15:55:29.125Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9160775619900595,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T15:55:31.118Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T15:55:31.120Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T15:55:31.131Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-36679","timestamp":"2017-03-08T15:55:31.584Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-08T15:55:32.704Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T15:55:32.718Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T15:55:32.720Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-36679&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T15:56:09.086Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T15:56:10.175Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T15:56:10.178Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T15:56:10.180Z"}
+{"sessionId":"1414981491876399-36679","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T15:56:10.222Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-36679","timestamp":"2017-03-08T15:56:10.227Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.02709946585780167,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"]}","timestamp":"2017-03-08T15:56:11.348Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T15:56:11.350Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T15:56:11.359Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-36679","timestamp":"2017-03-08T15:56:11.774Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.07291947044362662,\"type\":\"stop\"}","timestamp":"2017-03-08T15:56:12.854Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T15:56:12.856Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T15:56:12.857Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-36679&q=%D0%A5%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T15:56:26.933Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.02380360863731507,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"Ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T15:56:27.887Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T15:56:27.888Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T15:56:27.888Z"}
+{"sessionId":"1414981491876399-36679","context":{"botpress_platform":"facebook","botpress_type":"message","rates":"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]"},"text":"Ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"Ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T15:56:27.908Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-36679","timestamp":"2017-03-08T15:56:27.911Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.02990864783384719,\"type\":\"msg\",\"msg\":\"Ханш [USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T15:56:29.052Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T15:56:29.054Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T15:56:29.057Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-36679","timestamp":"2017-03-08T15:56:29.478Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.031405021613142216,\"type\":\"stop\"}","timestamp":"2017-03-08T15:56:30.573Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T15:56:30.575Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T15:56:31.029Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T15:58:44.912Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T15:58:46.298Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T15:58:46.426Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T15:58:46.428Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T15:58:46.430Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T15:58:46.483Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T15:58:46.651Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T15:58:55.889Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-49657&q=hi","timestamp":"2017-03-08T15:58:58.791Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9160775619900595,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T15:59:00.148Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T15:59:00.150Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T15:59:00.158Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-49657","timestamp":"2017-03-08T15:59:01.019Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-08T15:59:02.029Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T15:59:02.031Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T15:59:02.036Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T16:08:40.588Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T16:08:41.109Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T16:08:41.149Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T16:08:41.149Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T16:08:41.150Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T16:08:41.169Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T16:08:41.251Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T16:08:49.479Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-96913&q=hi","timestamp":"2017-03-08T16:10:52.747Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9160775619900595,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T16:10:54.076Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T16:10:54.077Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T16:10:54.078Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-96913","timestamp":"2017-03-08T16:10:54.500Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-08T16:10:55.583Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T16:10:55.584Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T16:10:55.584Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T16:12:45.899Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T16:12:46.383Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T16:12:46.424Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T16:12:46.424Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T16:12:46.425Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T16:12:46.444Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T16:12:46.513Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T16:12:54.239Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T16:17:49.281Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T16:17:49.774Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T16:17:49.812Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T16:17:49.812Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T16:17:49.813Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T16:17:49.831Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T16:17:49.885Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T16:17:58.109Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-12687&q=hi","timestamp":"2017-03-08T16:23:10.705Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9160775619900595,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T16:23:12.065Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T16:23:12.067Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T16:23:12.067Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-12687","timestamp":"2017-03-08T16:23:12.471Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-08T16:23:13.491Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T16:23:13.492Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T16:23:13.493Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T16:24:25.100Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T16:24:25.578Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T16:24:25.616Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T16:24:25.617Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T16:24:25.619Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T16:24:25.640Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T16:24:25.738Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T16:24:33.269Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92153&q=hi","timestamp":"2017-03-08T16:25:49.361Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9160775619900595,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T16:25:52.240Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T16:25:52.242Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T16:25:52.250Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-92153","timestamp":"2017-03-08T16:25:52.659Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-08T16:25:53.634Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T16:25:53.636Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T16:25:53.640Z"}
+{"level":"info","message":"Starting botpress version 0.1.4","timestamp":"2017-03-08T16:27:49.818Z"}
+{"level":"info","message":"Loaded 2 modules","timestamp":"2017-03-08T16:27:50.279Z"}
+{"level":"debug","message":"Loading middleware: wit.incoming","timestamp":"2017-03-08T16:27:50.319Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-03-08T16:27:50.320Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2017-03-08T16:27:50.321Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2017-03-08T16:27:50.338Z"}
+{"level":"debug","message":"[messenger] updating ngrok to facebook","timestamp":"2017-03-08T16:27:50.393Z"}
+{"level":"info","message":"[notification::botpress-messenger] Upgraded messenger app webhook with new ngrok url","timestamp":"2017-03-08T16:27:57.895Z"}
+{"level":"info","message":"New user: Javkhlan Gansukh","timestamp":"2017-03-08T16:28:37.680Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-69624&q=hi","timestamp":"2017-03-08T16:29:07.500Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9160775619900595,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T16:29:09.134Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T16:29:09.136Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T16:29:09.137Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-69624","timestamp":"2017-03-08T16:29:09.554Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-08T16:29:10.641Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T16:29:10.642Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T16:29:10.642Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-69624&q=%D0%93%D2%AF%D0%B9%D0%BB%D0%B3%D1%8D%D1%8D","timestamp":"2017-03-08T16:30:09.934Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"msg\",\"msg\":\"Та аль банк рүү гүйлгээ хийх вэ ?\",\"entities\":{\"location\":[{\"confidence\":0.49766934586963696,\"type\":\"value\",\"value\":\"Гүйлгээ\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9776811528332356,\"value\":\"inbank\"}]}}","timestamp":"2017-03-08T16:30:10.992Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T16:30:10.993Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T16:30:10.994Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-69624","timestamp":"2017-03-08T16:30:11.421Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":1,\"type\":\"stop\"}","timestamp":"2017-03-08T16:30:12.553Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T16:30:12.553Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T16:30:12.554Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-69624&q=hi","timestamp":"2017-03-08T16:31:14.219Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.041563967073220895,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"],\"entities\":{\"intent\":[{\"confidence\":0.9160775619900595,\"value\":\"greetings\"}]}}","timestamp":"2017-03-08T16:31:15.286Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T16:31:15.287Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T16:31:15.288Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-69624","timestamp":"2017-03-08T16:31:15.717Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04105829549322429,\"type\":\"stop\"}","timestamp":"2017-03-08T16:31:16.796Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T16:31:16.798Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T16:31:16.798Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-69624&q=%D1%85%D0%B0%D0%BD%D1%88","timestamp":"2017-03-08T16:35:08.233Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04065460900787729,\"type\":\"action\",\"action\":\"getCurrencyRates\",\"entities\":{\"location\":[{\"confidence\":0.48966311869028684,\"type\":\"value\",\"value\":\"ханш\",\"suggested\":true}],\"intent\":[{\"confidence\":0.9681606007876372,\"value\":\"currency_rate\"}]}}","timestamp":"2017-03-08T16:35:09.300Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\"}","timestamp":"2017-03-08T16:35:09.302Z"}
+{"level":"debug","message":"Response type: action","timestamp":"2017-03-08T16:35:09.303Z"}
+{"sessionId":"1414981491876399-69624","context":{"botpress_platform":"facebook","botpress_type":"message"},"text":"ханш","entities":{"location":[{"confidence":0.48966311869028684,"type":"value","value":"ханш","suggested":true}],"intent":[{"confidence":0.9681606007876372,"value":"currency_rate"}]},"level":"info","message":"getCurrencyRates called","timestamp":"2017-03-08T16:35:09.314Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-69624","timestamp":"2017-03-08T16:35:09.319Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.015557327201469549,\"type\":\"msg\",\"msg\":\"Сайн байна уу ? Та ямар үйлчилгээ авах вэ ?\",\"quickreplies\":[\"Данс\",\"Ханш\",\"Гүйлгээ\"]}","timestamp":"2017-03-08T16:35:10.288Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T16:35:10.289Z"}
+{"level":"debug","message":"Response type: msg","timestamp":"2017-03-08T16:35:10.291Z"}
+{"level":"debug","message":"POST https://api.wit.ai/converse?session_id=1414981491876399-69624","timestamp":"2017-03-08T16:35:10.694Z"}
+{"level":"debug","message":"[converse] Response: {\"confidence\":0.04007212672574302,\"type\":\"stop\"}","timestamp":"2017-03-08T16:35:11.880Z"}
+{"level":"debug","message":"Context: {\"botpress_platform\":\"facebook\",\"botpress_type\":\"message\",\"rates\":\"[USD авах 2015 , зарах 2014] [ RUB авах 30 , зарах 35 ]\"}","timestamp":"2017-03-08T16:35:11.882Z"}
+{"level":"debug","message":"Response type: stop","timestamp":"2017-03-08T16:35:11.883Z"}
